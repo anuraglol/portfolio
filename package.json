@@ -14,10 +14,12 @@
     "sass": "^1.44.0"
   },
   "devDependencies": {
+    "@types/react": "^17.0.37",
     "autoprefixer": "^10.4.0",
     "eslint": "8.4.1",
     "eslint-config-next": "12.0.7",
     "postcss": "^8.4.4",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.5.2"
   }
 }
