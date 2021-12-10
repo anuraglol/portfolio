@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head></Head>
+        <Head>
+          <title>Anurag | Frontend Dev</title>
+        </Head>
         <body>
           <Main />
           <NextScript />
