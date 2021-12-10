@@ -13,15 +13,17 @@ const Li = ({ text, href }) => {
 
 const Header: NextPage = () => {
   return (
-    <header className="header h-64 min-w-screen flex flex-row p-10 px-18 pt-20 font-poppins font-medium">
-      <span className="text-2xl font-semibold text-secondary">Anurag</span>
+    <header className="header h-64 min-w-screen flex items-center flex-row p-10 px-18 pt-20 font-poppins font-medium">
+      <p className="flex flex-row items-center mb-24">
+        <span className="text-2xl font-semibold text-secondary">Anurag</span>
 
-      <ul className="flex flex-row mx-8 text-lg font-semibold">
-        <Li text="Home" href="/" />
-        <Li text="About Me" href="/" />
-        <Li text="Projects" href="/" />
-        <Li text="Contact Me" href="/" />
-      </ul>
+        <ul className="flex flex-row mx-8 text-lg font-semibold">
+          <Li text="Home" href="/" />
+          <Li text="About Me" href="/" />
+          <Li text="Projects" href="/" />
+          <Li text="Contact Me" href="/" />
+        </ul>
+      </p>
     </header>
   );
 };
