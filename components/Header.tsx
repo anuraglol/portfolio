@@ -32,7 +32,6 @@ const Header: NextPage = () => {
           </button>
         </Link>
       </p>
-      <div className=""></div>
     </header>
   );
 };
