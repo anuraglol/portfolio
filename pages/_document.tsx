@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <title>Anurag | Frontend Dev</title>
         </Head>
-        <body>
+        <body className="bg-primary">
           <Main />
           <NextScript />
         </body>

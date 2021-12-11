@@ -3,8 +3,4 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
-.header {
-  background: url("../public/wave.svg") no-repeat;
-  background-size: cover;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;600&display=swap");
