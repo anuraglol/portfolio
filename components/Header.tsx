@@ -14,22 +14,15 @@ const Li = ({ text, href }) => {
 
 const Header: NextPage = () => {
   return (
-    <header className="header h-64 min-w-screen flex items-center flex-row p-10 px-24 pt-20 font-poppins font-medium">
-      <p className="flex flex-row items-center mb-24">
-        <span className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">Anurag</span>
+    <header className="header flex items-center flex-row p-3 pt-10 px-24 font-poppins font-medium">
+      <p className="flex flex-row items-center mb-8">
+        <p className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">
+          Anurag
+        </p>
 
-        <ul className="flex flex-row mx-8 text-lg font-semibold">
-          <Li text="Home" href="/" />
-          <Li text="About Me" href="/" />
-          <Li text="Projects" href="/" />
-          <Li text="Contact Me" href="/" />
-        </ul>
-
-        <button className="p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
-          <Link href="https://github.com/kr-anurag/anurag" passHref>
+          <button className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
             <AiFillGithub size="30" />
-          </Link>
-        </button>
+          </button>
       </p>
     </header>
   );
