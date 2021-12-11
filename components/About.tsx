@@ -11,7 +11,7 @@ const About: NextPage = () => {
         You can call me the Front-End dude! <br />
         I&apos;m a developer, blogger and a student! <br />
         Apart from coding, my hobbies include listening to music, and sometimes
-        bingeing!
+        binging!
       </p>
 
       <img src="./dev.svg" className="h-64 w-64" />
