@@ -19,18 +19,10 @@ const Header: NextPage = () => {
         <p className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">
           Anurag
         </p>
-        {/* <ul className="flex flex-row mx-8 text-lg font-semibold">
-          <Li text="Home" href="/" />
-          <Li text="About Me" href="/" />
-          <Li text="Projects" href="/" />
-          <Li text="Contact Me" href="/" />
-        </ul> */}
 
-        <Link href="https://github.com/kr-anurag/anurag" passHref>
           <button className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
             <AiFillGithub size="30" />
           </button>
-        </Link>
       </p>
     </header>
   );
