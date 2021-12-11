@@ -7,9 +7,9 @@ const About: NextPage = () => {
         <p className="font-poppins text-xl font-semibold text-blue-600">
           /about
         </p>{" "}
-        Hey There, I'm Anurag <br />
+        Hey There, I&apos;m Anurag <br />
         You can call me the Front-End dude! <br />
-        I'm a developer, blogger and a studnet! <br />
+        I&apos;m a developer, blogger and a studnet! <br />
         Apart from coding, my hobbies include listening to music, and sometimes
         bingeing!
       </p>
