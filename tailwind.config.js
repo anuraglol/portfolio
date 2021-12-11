@@ -9,8 +9,7 @@ module.exports = {
     },
 
     fontFamily: {
-      poppins: "'Poppins', sans-serif",
-      lato: "'Lato', sans-serif"
+      poppins: "\'Poppins\', sans-serif",
     },
   },
   variants: {

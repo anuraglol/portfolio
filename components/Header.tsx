@@ -15,7 +15,7 @@ const Li = ({ text, href }) => {
 const Header: NextPage = () => {
   return (
     <header className="header flex items-center flex-row p-3 pt-10 px-24 font-poppins font-medium">
-      <p className="flex flex-row items-center mb-24">
+      <p className="flex flex-row items-center mb-8">
         <p className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">
           Anurag
         </p>
