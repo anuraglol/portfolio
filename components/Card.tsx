@@ -1,8 +1,13 @@
 import { BsArrowRightShort } from "react-icons/bs";
 
-const Link = ({ name, url, username, children }) => {
+const Card = ({ name, url, username, children }) => {
   return (
-    <div className="m-6 flex flex-row gap-4 items-center group cursor-pointer">
+    <a
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      className="m-6 flex flex-row gap-4 items-center group cursor-pointer"
+    >
       <div>
         <p className="text-xl font-medium group-hover:text-blue-600 duration-100">
           {name}
@@ -18,8 +23,8 @@ const Link = ({ name, url, username, children }) => {
           className="group-hover:text-blue-500 group-hover:mx-2 duration-100"
         />
       </div>
-    </div>
+    </a>
   );
 };
 
-export default Link;
+export default Card;

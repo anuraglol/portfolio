@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 
 const About: NextPage = () => {
   return (
@@ -14,7 +15,7 @@ const About: NextPage = () => {
         binging!
       </p>
 
-      <img src="./dev.svg" className="h-64 w-64" />
+      <Image src="/assests/dev.svg" alt="about" height="200px" width="250px" />
     </div>
   );
 };
