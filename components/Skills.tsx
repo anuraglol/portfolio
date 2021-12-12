@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 
 const Skills: NextPage = () => {
   return (
@@ -54,7 +55,7 @@ const Skills: NextPage = () => {
         </div>
       </div>
       <div>
-        <img src="./skill.svg" />
+        <Image src="/assests/skill.svg" height="200px" width="250px" />
       </div>
     </div>
   );

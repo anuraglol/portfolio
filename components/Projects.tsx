@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
-
-import { AiFillGithub } from "react-icons/ai";
-import { BsArrowRightShort } from "react-icons/bs";
+import Image from "next/image";
 
 import Project from "./Project";
 
@@ -40,7 +38,12 @@ const Projects: NextPage = () => {
         </div>
 
         <div>
-          <img src="./projects.svg" alt="" />
+          <Image
+            src="/assests/projects.svg"
+            alt="projects"
+            height="200px"
+            width="250px"
+          />
         </div>
       </div>
     </div>
