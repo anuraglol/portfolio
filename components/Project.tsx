@@ -3,10 +3,13 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Project = ({ title, url, role, desc }) => {
   return (
-    <a href={url} className="my-2 p-4 group cursor-pointer" target="_blank">
-      <p className="font-medium text-xl group-hover:text-blue-600">
-        {title}
-      </p>
+    <a
+      href={url}
+      className="my-2 p-4 group cursor-pointer"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <p className="font-medium text-xl group-hover:text-blue-600">{title}</p>
 
       <p className="text-gray-700">{desc}</p>
       <p>
