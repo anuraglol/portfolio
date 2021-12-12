@@ -1,14 +1,13 @@
 import type { NextPage } from "next";
 import { AiFillGithub } from "react-icons/ai";
-import Link from "next/link";
 
-const Li = ({ text, href }) => {
+const Li = ({ children, href }) => {
   return (
-    <Link href={href} passHref>
-      <span className="mx-4 hover:text-slate-800 hover:rotate-3 duration-100 cursor-pointer">
-        {text}
+    <a href={href}>
+      <span className="text-lg px-3 p-2 rounded-full mx-4 hover:text-slate-800 hover:rotate-3 duration-100 cursor-pointer hover:bg-purple-100 hover:text-purple-600">
+        {children}
       </span>
-    </Link>
+    </a>
   );
 };
 
@@ -19,7 +18,13 @@ const Header: NextPage = () => {
         <p className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">
           Anurag
         </p>
-
+        <p>
+          <Li href="#">Home</Li>
+          <Li href="#">About</Li>
+          <Li href="#">Skills</Li>
+          <Li href="#">Projects</Li>
+          <Li href="#">Contact</Li>
+        </p>
         <button className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
           <AiFillGithub size="30" />
         </button>
