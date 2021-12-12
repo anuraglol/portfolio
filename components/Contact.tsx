@@ -19,7 +19,7 @@ const Contact: NextPage = () => {
           url="https://twitter.com/kr_anurag_"
           username="@kr_anurag_"
         >
-          <AiOutlineTwitter size={25} />
+          <AiOutlineTwitter size={25} aria-label="Twitter Link" />
         </Card>
 
         <Card
@@ -27,7 +27,7 @@ const Contact: NextPage = () => {
           url="https://github.com/kr-anurag/"
           username="@kr-anurag"
         >
-          <AiOutlineGithub size={25} />
+          <AiOutlineGithub size={25} aria-label="Twitter Link" />
         </Card>
 
         <Card
@@ -35,7 +35,7 @@ const Contact: NextPage = () => {
           url="https://anuragkr.hashnode.dev/"
           username="@kr-anurag"
         >
-          <SiHashnode size={25} />
+          <SiHashnode size={25} aria-label="Hashnode Link" />
         </Card>
 
         <Card
@@ -43,7 +43,7 @@ const Contact: NextPage = () => {
           url="https://open.spotify.com/user/31l2fev6wn2mtzclbpvzxis3x77q"
           username="Anurag"
         >
-          <BsSpotify size={25} />
+          <BsSpotify size={25} aria-label="Spotify Link" />
         </Card>
       </div>
 
@@ -56,7 +56,7 @@ const Contact: NextPage = () => {
         username="Byteslash Community"
         url="https://discord.gg/n2Bu9qd5q2"
       >
-        <SiDiscord size={25} />
+        <SiDiscord size={25} aria-label="Discord Server Link" />
       </Card>
     </div>
   );

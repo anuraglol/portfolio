@@ -63,7 +63,12 @@ const Skills: NextPage = () => {
         </div>
       </div>
       <div>
-        <Image src="/assests/skill.svg" height="200px" width="250px" alt="skills" />
+        <Image
+          src="/assests/skill.svg"
+          height="200px"
+          width="250px"
+          alt="skills"
+        />
       </div>
     </div>
   );
