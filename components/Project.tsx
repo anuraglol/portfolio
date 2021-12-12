@@ -1,12 +1,12 @@
 import { AiFillGithub } from "react-icons/ai";
 import { BsArrowRightShort } from "react-icons/bs";
 
-const Project = ({ title, link, role, desc, github }) => {
+const Project = ({ title, url, role, desc }) => {
   return (
-    <div className="my-2 p-4 group cursor-pointer">
-      <a href="#" className="font-medium text-xl group-hover:text-blue-600">
+    <a href={url} className="my-2 p-4 group cursor-pointer" target="_blank">
+      <p className="font-medium text-xl group-hover:text-blue-600">
         {title}
-      </a>
+      </p>
 
       <p className="text-gray-700">{desc}</p>
       <p>
@@ -22,7 +22,7 @@ const Project = ({ title, link, role, desc, github }) => {
           className="group-hover:text-blue-500 group-hover:mx-2 duration-100"
         />
       </p>
-    </div>
+    </a>
   );
 };
 

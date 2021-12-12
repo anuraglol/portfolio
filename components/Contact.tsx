@@ -4,7 +4,7 @@ import { AiOutlineGithub, AiOutlineTwitter } from "react-icons/ai";
 import { SiHashnode, SiDiscord } from "react-icons/si";
 import { BsSpotify } from "react-icons/bs";
 
-import Link from "./Link";
+import Card from "./Card";
 
 const Contact: NextPage = () => {
   return (
@@ -14,30 +14,50 @@ const Contact: NextPage = () => {
         here i am! connect with me!
       </p>
       <div className="grid grid-cols-2 justify-center gap-4">
-        <Link name="Twitter" url="#" username="@kr_anurag_">
+        <Card
+          name="Twitter"
+          url="https://twitter.com/kr_anurag_"
+          username="@kr_anurag_"
+        >
           <AiOutlineTwitter size={25} />
-        </Link>
+        </Card>
 
-        <Link name="Github" url="#" username="@kr-anurag">
+        <Card
+          name="Github"
+          url="https://github.com/kr-anurag/"
+          username="@kr-anurag"
+        >
           <AiOutlineGithub size={25} />
-        </Link>
+        </Card>
 
-        <Link name="Hashnode" url="#" username="@kr-anurag">
+        <Card
+          name="Hashnode"
+          url="https://anuragkr.hashnode.dev/"
+          username="@kr-anurag"
+        >
           <SiHashnode size={25} />
-        </Link>
+        </Card>
 
-        <Link name="Spotify" url="#" username="@kr-anurag">
+        <Card
+          name="Spotify"
+          url="https://open.spotify.com/user/31l2fev6wn2mtzclbpvzxis3x77q"
+          username="Anurag"
+        >
           <BsSpotify size={25} />
-        </Link>
+        </Card>
       </div>
 
       <p className="text-xl font-medium text-gray-700 p-4">
         and, join our discord server!
       </p>
 
-      <Link name="Discord" username="Byteslash Community" url="#">
+      <Card
+        name="Discord"
+        username="Byteslash Community"
+        url="https://discord.gg/n2Bu9qd5q2"
+      >
         <SiDiscord size={25} />
-      </Link>
+      </Card>
     </div>
   );
 };

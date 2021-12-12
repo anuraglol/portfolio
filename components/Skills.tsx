@@ -16,7 +16,7 @@ const Skills: NextPage = () => {
             </ul>
           </div>
           <div className="w-96 grid grid-cols-2 gap-8 my-4">
-            <div className="flex flex-col">
+            <div>
               <p className="text-gray-600 font-semibold">frameworks</p>
               <ul>
                 <li>nextjs</li>
@@ -49,6 +49,14 @@ const Skills: NextPage = () => {
               <ul>
                 <li>chakra ui</li>
                 <li>tailwind css</li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="text-gray-600 font-semibold">realtime databases</p>
+              <ul>
+                <li>firebase</li>
+                <li>supabase</li>
               </ul>
             </div>
           </div>

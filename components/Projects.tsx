@@ -13,25 +13,22 @@ const Projects: NextPage = () => {
           <Project
             title="Gradient Deck - Find Awesome Gradients"
             desc="A curated place to find awesome gradients!"
-            link="#"
             role="owner"
-            github="#"
+            url="https://github.com/kr-anurag/gradient-deck"
           />
 
           <Project
             title="Orbits UI"
-            desc="I will write it when avneesh sends"
-            link="#"
+            desc="Orbits UI is a React Component Library."
+            url="https://github.com/avneesh0612/Orbits-UI"
             role="contributor"
-            github="#"
           />
 
           <Project
             title="Formie [WIP]"
             desc="Formie - Open Source Forms"
-            link="#"
+            url="https://github.com/kr-anurag/formie"
             role="owner"
-            github="#"
           />
 
           <p className="text-gray-700">- and yep! more coming up soon!</p>
