@@ -17,7 +17,10 @@ const Project = ({ title, url, role, desc }) => {
         {role}
       </p>
       <p className="flex flex-row items-center">
-        <button className="p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
+        <button
+          className="p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200"
+          aria-label="GitHub Link"
+        >
           <AiFillGithub size={25} />
         </button>
         <BsArrowRightShort
