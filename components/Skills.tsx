@@ -19,6 +19,7 @@ const Skills: NextPage = () => {
               <p className="text-gray-600 font-semibold">frameworks</p>
               <ul>
                 <li>nextjs</li>
+                <li>nodejs</li>
               </ul>
             </div>
 
