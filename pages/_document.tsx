@@ -9,9 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <title>Anurag | Frontend Dev</title>
-        </Head>
+        <Head></Head>
         <body className="bg-primary">
           <Main />
           <NextScript />
