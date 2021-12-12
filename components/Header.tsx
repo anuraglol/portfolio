@@ -20,9 +20,9 @@ const Header: NextPage = () => {
           Anurag
         </p>
 
-          <button className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
-            <AiFillGithub size="30" />
-          </button>
+        <button className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
+          <AiFillGithub size="30" />
+        </button>
       </p>
     </header>
   );
