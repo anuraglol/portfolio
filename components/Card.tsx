@@ -6,7 +6,7 @@ const Card = ({ name, url, username, children }) => {
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="m-6 flex flex-row gap-4 items-center group cursor-pointer"
+      className="mx-6 flex flex-row gap-4 items-center group cursor-pointer"
     >
       <div>
         <p className="text-xl font-medium group-hover:text-blue-600 duration-100">

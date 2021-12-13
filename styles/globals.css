@@ -8,3 +8,15 @@
 * {
   scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-purple-200
+}
+
+body::-webkit-scrollbar-thumb {
+    @apply bg-purple-500 rounded-full
+}

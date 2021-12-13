@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Skills: NextPage = () => {
   return (
-    <div className="flex flex-row items-center">
+    <div className="my-8 flex flex-row items-center">
       <div className="mx-24 font-poppins">
         <p className="font-semibold text-blue-600 text-2xl">/skills</p>
         <div className="text-gray-500 font-medium">
