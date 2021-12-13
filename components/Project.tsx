@@ -5,7 +5,7 @@ const Project = ({ title, url, role, desc }) => {
   return (
     <a
       href={url}
-      className="my-2 p-4 group cursor-pointer"
+      className="p-4 group cursor-pointer"
       target="_blank"
       rel="noreferrer"
     >
