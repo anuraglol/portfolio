@@ -13,22 +13,24 @@ const Li = ({ children, href }) => {
 
 const Header: NextPage = () => {
   return (
-    <header className="header flex items-center flex-row p-3 pt-10 px-24 font-poppins font-medium">
-      <p className="flex flex-row items-center mb-8">
-        <p className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">
-          Anurag
-        </p>
-        <p>
-          <Li href="#">Home</Li>
-          <Li href="#">About</Li>
-          <Li href="#">Skills</Li>
-          <Li href="#">Projects</Li>
-          <Li href="#">Contact</Li>
-        </p>
-        <button className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200"
-        aria-label="github repo">
+    <header className="flex items-center flex-row justify-between p-3 pt-10 px-24 mb-8 font-poppins font-medium">
+      <p className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">
+        Anurag
+      </p>
+      <p className="flex flex-row items-center">
+        <Li href="#about">About</Li>
+        <Li href="#skills">Skills</Li>
+        <Li href="#projects">Projects</Li>
+        <Li href="#contact">Contact</Li>
+        <a
+          href="https://github.com/kr-anurag/anurag"
+          target="_blank"
+          rel="noreferrer"
+          className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200"
+          aria-label="github repo"
+        >
           <AiFillGithub size="30" />
-        </button>
+        </a>
       </p>
     </header>
   );

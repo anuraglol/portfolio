@@ -6,10 +6,18 @@ const Home: NextPage = () => {
   return (
     <>
       <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <a id="about">
+        <About />
+      </a>
+      <a id="skills">
+        <Skills />
+      </a>
+      <a id="projects">
+        <Projects />
+      </a>
+      <a id="contact">
+        <Contact />
+      </a>
     </>
   );
 };
