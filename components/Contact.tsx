@@ -8,7 +8,7 @@ import Card from "./Card";
 
 const Contact: NextPage = () => {
   return (
-    <div className="my-16 mx-24 font-poppins">
+    <div className="my-16 mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 font-poppins">
       <p className="font-semibold text-blue-600 text-2xl">/contact</p>
       <p className="text-xl font-medium text-gray-700 p-4">
         here i am! connect with me!

@@ -5,7 +5,7 @@ import Project from "./Project";
 
 const Projects: NextPage = () => {
   return (
-    <div className="font-poppins mx-24 my-10 font-medium">
+    <div className="font-poppins mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 my-10 font-medium">
       <p className="font-semibold text-blue-600 text-2xl">/projects</p>
 
       <div className="flex flex-row items-center">
