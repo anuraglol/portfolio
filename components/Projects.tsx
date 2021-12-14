@@ -8,7 +8,7 @@ const Projects: NextPage = () => {
     <div className="font-poppins mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 my-10 font-medium">
       <p className="font-semibold text-blue-600 text-2xl">/projects</p>
 
-      <div className="flex flex-row items-center">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <div>
           <Project
             title="Gradient Deck - Find Awesome Gradients"
@@ -34,7 +34,7 @@ const Projects: NextPage = () => {
           <p className="text-gray-700">- and yep! more coming up soon!</p>
         </div>
 
-        <div>
+        <div className="hidden md:inline">
           <Image
             src="/assests/projects.svg"
             alt="projects"

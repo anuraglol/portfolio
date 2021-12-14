@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Skills: NextPage = () => {
   return (
-    <div className="my-8 mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 flex flex-row items-center font-poppins">
+    <div className="my-8 mt-12 mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 md:grid md:grid-cols-2 md:items-center font-poppins">
       <div>
         <p className="font-semibold text-blue-600 text-2xl">/skills</p>
         <div className="text-gray-500 font-medium">
@@ -63,12 +63,14 @@ const Skills: NextPage = () => {
         </div>
       </div>
       <div>
-        <Image
-          src="/assests/skill.svg"
-          height="200px"
-          width="250px"
-          alt="skills"
-        />
+        <div className="hidden md:inline">
+          <Image
+            src="/assests/skill.svg"
+            height="200px"
+            width="250px"
+            alt="skills"
+          />
+        </div>
       </div>
     </div>
   );
