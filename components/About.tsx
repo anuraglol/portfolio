@@ -11,8 +11,7 @@ const About: NextPage = () => {
         Hey There, I&apos;m Anurag <br />
         You can call me the Front-End dude! <br />
         I&apos;m a developer, blogger and a student! <br />
-        Apart from coding, my hobbies include listening to music, and sometimes
-        binging!
+        Apart from coding, my hobbies include listening to music
       </p>
 
       <Image src="/assests/dev.svg" alt="about" height="200px" width="250px" />

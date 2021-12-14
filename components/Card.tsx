@@ -6,7 +6,7 @@ const Card = ({ name, url, username, children }) => {
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="mx-6 flex flex-row gap-4 items-center group cursor-pointer"
+      className="flex flex-row items-center group cursor-pointer"
     >
       <div>
         <p className="text-xl font-medium group-hover:text-blue-600 duration-100">
@@ -15,7 +15,7 @@ const Card = ({ name, url, username, children }) => {
         <p className="font-medium text-gray-600">{username}</p>
       </div>
       <div className="flex flex-row items-center">
-        <button className="p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
+        <button className="mx-2 p-2 rounded-lg bg-gray-100 duration-100 hover:bg-gray-200">
           {children}
         </button>
         <BsArrowRightShort
