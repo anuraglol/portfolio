@@ -1,4 +1,5 @@
-import { IoIosArrowForward } from 'react-icons/io'
+import { IoIosArrowForward } from "react-icons/io";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -13,16 +14,15 @@ const About = () => {
         Apart from coding, I love listening to music!
       </p>
       <p className="flex justify-center">
-        <button
-          className="text-xl w-72 text-white font-medium px-4 py-3 rounded-full flex items-center justify-center"
-          style={{
-            background: "linear-gradient(to right, #12c2e9, #c471ed, #f64f59)",
-          }}
-        >
-          Checkout my Github
-          <IoIosArrowForward  />
-        </button>
+        <Link href="#" passHref>
+          <button className="text-xl w-72 text-white font-medium px-4 py-3 rounded-full flex items-center justify-center bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59] shadow-xl hover:bg-gradient-to-l duration-100">
+            Checkout my Github
+            <IoIosArrowForward />
+          </button>
+        </Link>
       </p>
+
+      
     </div>
   );
 };
