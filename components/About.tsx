@@ -8,10 +8,12 @@ const About: NextPage = () => {
         <p className="font-poppins text-2xl font-semibold text-blue-600">
           /about
         </p>{" "}
-        Hey There, I&apos;m Anurag <br />
-        You can call me the Front-End dude! <br />
-        I&apos;m a developer, blogger and a student! <br />
-        Apart from coding, my hobbies include listening to music
+        <p className="mx-4">
+          Hey There, I&apos;m Anurag <br />
+          You can call me the Front-End dude! <br />
+          I&apos;m a developer, blogger and a student! <br />
+          Apart from coding, my hobbies include listening to music
+        </p>
       </p>
     </div>
   );

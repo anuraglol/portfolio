@@ -10,7 +10,7 @@ const Contact: NextPage = () => {
   return (
     <div className="my-16 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 font-poppins">
       <p className="font-semibold text-blue-600 text-2xl">/contact</p>
-      <p className="text-xl font-medium text-gray-700 p-4">
+      <p className="text-xl font-medium text-gray-700 m-4">
         here i am! connect with me!
       </p>
       <div className="mx-4 grid grid-cols-2 gap-10 gap-x-36 md:gap-x-16 lg:gap-x-12 xl:gap-x-8 2xl:gap-x-4">

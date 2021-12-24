@@ -6,7 +6,7 @@ const Skills: NextPage = () => {
     <div className="my-8 mt-12 mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 font-poppins">
       <div>
         <p className="font-semibold text-blue-600 text-2xl">/skills</p>
-        <div className="text-gray-500 font-medium">
+        <div className="text-gray-500 font-medium mx-4">
           <div className="my-4">
             <p className="text-gray-600 font-semibold">languages</p>
             <ul>
