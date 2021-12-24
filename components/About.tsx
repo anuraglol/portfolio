@@ -13,8 +13,6 @@ const About: NextPage = () => {
         I&apos;m a developer, blogger and a student! <br />
         Apart from coding, my hobbies include listening to music
       </p>
-
-      <Image src="/assests/dev.svg" alt="about" height="200px" width="250px" />
     </div>
   );
 };

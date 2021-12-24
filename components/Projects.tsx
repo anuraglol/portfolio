@@ -33,15 +33,6 @@ const Projects: NextPage = () => {
 
           <p className="text-gray-700">- and yep! more coming up soon!</p>
         </div>
-
-        <div className="hidden md:inline">
-          <Image
-            src="/assests/projects.svg"
-            alt="projects"
-            height="200px"
-            width="250px"
-          />
-        </div>
       </div>
     </div>
   );

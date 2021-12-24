@@ -13,7 +13,7 @@ const Li = ({ children, href }) => {
 
 const Header: NextPage = () => {
   return (
-    <header className="flex items-center flex-row justify-between p-3 pt-2 md:pt-4 px-4 md:px-8 lg:px-10 xl:px-12 font-poppins font-medium">
+    <header className="flex items-center flex-row justify-between p-3 pt-2 md:pt-4 px-4 md:px-8 lg:px-10 xl:px-12 font-poppins font-medium bg-gray-100">
       <p className="text-2xl font-semibold text-secondary duration-100 hover:rotate-12 cursor-pointer">
         Anurag
       </p>
