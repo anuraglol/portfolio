@@ -1,21 +1,22 @@
-import { AiFillGithub } from 'react-icons/ai'
+import { AiFillGithub } from "react-icons/ai";
+import Link from "next/link";
 
-const Tile = ({ title, desc }) => {
+const Tile = ({ title, desc, url }) => {
   return (
-    <div className="w-64 h-64 p-4 rounded-md flex justify-center flex-col text-center bg-slate-200 hover:bg-slate-300 duration-100 cursor-pointer">
-      <p className="text-2xl font-semibold">{title}</p>
-      <p className="text-xl my-4">
-        {desc}
-      </p>
+    <Link href={url} passHref>
+      <a target="blank">
+        <div className="w-64 h-64 p-4 rounded-md flex justify-center flex-col text-center bg-slate-200 hover:bg-slate-300 duration-100 cursor-pointer">
+          <p className="text-2xl font-semibold">{title}</p>
+          <p className="text-xl my-4">{desc}</p>
 
-      <p className="w-full flex justify-center">
-        <button className="">
-          <AiFillGithub size={40} />
-        </button>
-      </p>
-    </div>
+          <p className="w-full flex justify-center">
+            <AiFillGithub size={40} />
+          </p>
+        </div>
+      </a>
+    </Link>
   );
-}
+};
 
 const Projects = () => {
   return (
@@ -30,14 +31,17 @@ const Projects = () => {
         <Tile
           title="Orbits UI"
           desc="A React Compponent library built with Tailwind CSS"
+          url="https://github.com/avneesh0612/Orbits-UI"
         />
         <Tile
           title="Gradient Deck"
           desc="Explore awesome curated gradients, add your own!"
+          url="https://github.com/kr-anurag/gradient-deck"
         />
         <Tile
           title="Formie"
           desc="Open Source Forms for normies!"
+          url="https://github.com/kr-anurag/formie"
         />
       </div>
     </div>
