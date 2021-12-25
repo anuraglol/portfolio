@@ -3,11 +3,11 @@ import { AiFillGithub } from 'react-icons/ai'
 const Projects = () => {
   return (
     <div
-      className={`w-full p-10 bg-[#11141e] flex flex-col justify-center items-center gap-16 font-inter font-medium text-white`}
+      className={`w-full p-10 flex flex-col justify-center items-center gap-16 font-inter font-medium text-white`}
     >
-      <div className="text-2xl cursor-pointer rounded-full px-6 py-2 bg-gradient-to-r from-[#ef32d9] to-[#89fffd]">
-        Projects
-      </div>
+        <button className="text-xl w-36 text-white font-medium px-4 py-3 rounded-full flex items-center justify-center bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59] shadow-xl hover:bg-gradient-to-l duration-100">
+          Projects
+        </button>
       <div className="flex flex-row gap-16">
         <div
           className="w-64 h-64 p-4 rounded-md flex justify-center items-center flex-col text-center"
