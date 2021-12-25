@@ -2,22 +2,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-import { SiHashnode } from 'react-icons/si'
+import { SiHashnode } from "react-icons/si";
 
-const Tile = ({children, url}) => {
+const Tile = ({ children, url }) => {
   return (
     <Link href={url} passHref>
-        <a className="p-2 rounded-md bg-slate-200 hover:bg-slate-300 duration-100 grid place-items-center"
-        target="_blank" aria-label="social-icon">
-          {children}
-        </a>
+      <a
+        className="p-2 rounded-md bg-slate-200 hover:bg-slate-300 duration-100 grid place-items-center"
+        target="_blank"
+        aria-label="social-icon"
+      >
+        {children}
+      </a>
     </Link>
   );
 };
 
 const Contact = () => {
   return (
-    <div className="px-8 py-2 flex flex-col justify-center font-inter font-medium ">
+    <div className="min-w-screen px-8 py-2 flex flex-col justify-center font-inter font-medium ">
       <p className="text-center text-3xl font-mono font-semibold text-purple-600">
         contact
       </p>

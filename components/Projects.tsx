@@ -21,7 +21,7 @@ const Tile = ({ title, desc, url }) => {
 const Projects = () => {
   return (
     <div
-      className={`w-full p-10 flex flex-col justify-center items-center gap-16 font-inter font-medium `}
+      className={`min-w-screen p-10 flex flex-col justify-center items-center gap-16 font-inter font-medium `}
     >
       <p className="text-center text-3xl font-mono font-semibold text-purple-600">
         projects
