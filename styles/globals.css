@@ -19,3 +19,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   @apply bg-purple-500 rounded-full;
 }
+
+.about {
+  background: url(https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg);
+}
