@@ -1,63 +1,38 @@
-import type { NextPage } from "next";
+import Image from "next/image";
+import Link from "next/link";
 
-import { AiOutlineGithub, AiOutlineTwitter } from "react-icons/ai";
-import { SiHashnode, SiDiscord } from "react-icons/si";
-import { BsSpotify } from "react-icons/bs";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { SiHashnode } from 'react-icons/si'
 
-import Card from "./Card";
-
-const Contact: NextPage = () => {
+const Tile = ({children}) => {
   return (
-    <div className="my-16 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 font-poppins">
-      <p className="font-semibold text-blue-600 text-2xl">/contact</p>
-      <p className="text-xl font-medium text-gray-700 m-4">
-        here i am! connect with me!
+    <Link href="#" passHref>
+      <button
+        className="p-2 rounded-md bg-slate-200 hover:bg-slate-300 duration-100"
+      >
+        {children}
+      </button>
+    </Link>
+  );
+};
+
+const Contact = () => {
+  return (
+    <div className="px-8 py-2 flex flex-col justify-center font-inter font-medium ">
+      <p className="text-center text-3xl font-mono font-semibold text-purple-600">
+        contact
       </p>
-      <div className="mx-4 grid grid-cols-2 gap-10 gap-x-36 md:gap-x-16 lg:gap-x-12 xl:gap-x-8 2xl:gap-x-4">
-        <Card
-          name="Twitter"
-          url="https://twitter.com/kr_anurag_"
-          username="@kr_anurag_"
-        >
-          <AiOutlineTwitter size={25} aria-label="Twitter Link" />
-        </Card>
-
-        <Card
-          name="Github"
-          url="https://github.com/kr-anurag/"
-          username="@kr-anurag"
-        >
-          <AiOutlineGithub size={25} aria-label="Twitter Link" />
-        </Card>
-
-        <Card
-          name="Hashnode"
-          url="https://anuragkr.hashnode.dev/"
-          username="@kr-anurag"
-        >
-          <SiHashnode size={25} aria-label="Hashnode Link" />
-        </Card>
-
-        <Card
-          name="Spotify"
-          url="https://open.spotify.com/user/31l2fev6wn2mtzclbpvzxis3x77q"
-          username="Anurag"
-        >
-          <BsSpotify size={25} aria-label="Spotify Link" />
-        </Card>
-      </div>
-
-      <p className="text-xl font-medium text-gray-700 p-4">
-        and, join our discord server!
-      </p>
-      <div className="mx-4">
-        <Card
-          name="Discord"
-          username="Byteslash Community"
-          url="https://discord.gg/n2Bu9qd5q2"
-        >
-          <SiDiscord size={25} aria-label="Discord Server Link" />
-        </Card>
+      <Image src="/assests/Frame.svg" height="330" width="330" />
+      <div className="w-full text-xl flex flex-row gap-8 justify-center">
+        <Tile>
+          <AiFillGithub size={35} />
+        </Tile>
+        <Tile>
+          <AiOutlineTwitter size={35} />
+        </Tile>
+        <Tile>
+          <SiHashnode size={30} />
+        </Tile>
       </div>
     </div>
   );

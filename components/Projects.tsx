@@ -1,38 +1,44 @@
-import type { NextPage } from "next";
-import Image from "next/image";
+import { AiFillGithub } from 'react-icons/ai'
 
-import Project from "./Project";
-
-const Projects: NextPage = () => {
+const Tile = ({ title, desc }) => {
   return (
-    <div className="font-poppins mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 my-10 font-medium">
-      <p className="font-semibold text-blue-600 text-2xl">/projects</p>
+    <div className="w-64 h-64 p-4 rounded-md flex justify-center flex-col text-center bg-slate-200 hover:bg-slate-300 duration-100 cursor-pointer">
+      <p className="text-2xl font-semibold">{title}</p>
+      <p className="text-xl my-4">
+        {desc}
+      </p>
 
-      <div className="mx-4">
-        <div>
-          <Project
-            title="Gradient Deck - Find Awesome Gradients"
-            desc="A curated place to find awesome gradients!"
-            role="owner"
-            url="https://github.com/kr-anurag/gradient-deck"
-          />
+      <p className="w-full flex justify-center">
+        <button className="">
+          <AiFillGithub size={40} />
+        </button>
+      </p>
+    </div>
+  );
+}
 
-          <Project
-            title="Orbits UI"
-            desc="Orbits UI is a React Component Library."
-            url="https://github.com/avneesh0612/Orbits-UI"
-            role="contributor"
-          />
-
-          <Project
-            title="Formie [WIP]"
-            desc="Formie - Open Source Forms"
-            url="https://github.com/kr-anurag/formie"
-            role="owner"
-          />
-
-          <p className="text-gray-700">- and yep! more coming up soon!</p>
-        </div>
+const Projects = () => {
+  return (
+    <div
+      className={`w-full p-10 flex flex-col justify-center items-center gap-16 font-inter font-medium `}
+    >
+      <p className="text-center text-3xl font-mono font-semibold text-purple-600">
+        projects
+      </p>
+      <div className="flex flex-row gap-16 ">
+        {" "}
+        <Tile
+          title="Orbits UI"
+          desc="A React Compponent library built with Tailwind CSS"
+        />
+        <Tile
+          title="Gradient Deck"
+          desc="Explore awesome curated gradients, add your own!"
+        />
+        <Tile
+          title="Formie"
+          desc="Open Source Forms for normies!"
+        />
       </div>
     </div>
   );

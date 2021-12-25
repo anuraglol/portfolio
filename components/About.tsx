@@ -1,19 +1,26 @@
-import type { NextPage } from "next";
-import Image from "next/image";
+import { IoIosArrowForward } from "react-icons/io";
+import Link from "next/link";
 
-const About: NextPage = () => {
+const About = () => {
   return (
-    <div className="grid grid-cols-auto mt-10 items-center">
-      <p className="mx-6 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-20 text-lg font-poppins font-medium text-gray-500">
-        <p className="font-poppins text-2xl font-semibold text-blue-600">
-          /about
-        </p>{" "}
-        <p className="mx-4">
-          Hey There, I&apos;m Anurag <br />
-          You can call me the Front-End dude! <br />
-          I&apos;m a developer, blogger and a student! <br />
-          Apart from coding, my hobbies include listening to music
-        </p>
+    <div className="w-full font-inter py-4 my-16 flex justify-center flex-col">
+     
+      <p className="text-6xl font-bold text-gray-700 text-center">
+        Hey, I&apos;m Anurag
+      </p>
+      <p className="text-2xl text-gray-600 text-center my-8">
+        Hey there, I&apos;m a Frontend Developer based in India. <br />
+        I&apos;m mainly focused on Frontend Development, and I also write blogs
+        and design sometimes. <br />
+        Apart from coding, I love listening to music!
+      </p>
+      <p className="flex justify-center">
+        <Link href="https://github.com/kr-anurag" passHref>
+          <button className="text-xl w-72 text-white font-medium px-4 py-3 rounded-full flex items-center justify-center bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59] shadow-xl hover:bg-gradient-to-l duration-100">
+            Checkout my Github
+            <IoIosArrowForward />
+          </button>
+        </Link>
       </p>
     </div>
   );
