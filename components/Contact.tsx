@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Tile = ({text}) => {
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { SiHashnode } from 'react-icons/si'
+
+const Tile = ({children}) => {
   return (
     <Link href="#" passHref>
       <button
-        className="px-4 py-2 rounded-full"
-        style={{
-          background: "linear-gradient(to right, #ee0979, #ff6a00)",
-        }}
+        className="p-2 rounded-md bg-slate-200 hover:bg-slate-300 duration-100"
       >
-        {text}
+        {children}
       </button>
     </Link>
   );
@@ -18,13 +18,21 @@ const Tile = ({text}) => {
 
 const Contact = () => {
   return (
-    <div className="bg-gray px-8 py-2 flex flex-col justify-center font-inter font-medium text-white">
+    <div className="px-8 py-2 flex flex-col justify-center font-inter font-medium ">
+      <p className="text-center text-3xl font-mono font-semibold text-purple-600">
+        contact
+      </p>
       <Image src="/assests/Frame.svg" height="330" width="330" />
       <div className="w-full text-xl flex flex-row gap-8 justify-center">
-        <Tile text="Github" />
-        <Tile text="Twitter" />
-        <Tile text="Hashnode" />
-        <Tile text="Email" />
+        <Tile>
+          <AiFillGithub size={35} />
+        </Tile>
+        <Tile>
+          <AiOutlineTwitter size={35} />
+        </Tile>
+        <Tile>
+          <SiHashnode size={30} />
+        </Tile>
       </div>
     </div>
   );
