@@ -3,7 +3,7 @@ import Image from "next/image";
 const Tile = ({ text }) => {
   return (
     <div
-      className="px-6 my-10 rounded-full py-2 grid place-items-center text-lg bg-purple-400 hover:bg-purple-300 duration-100 cursor-pointer"
+      className="px-6 my-10 rounded-full py-2 grid place-items-center text-lg bg-purple-400 hover:bg-purple-300 duration-100 cursor-pointer text-white"
     >
       {text}{" "}
     </div>
