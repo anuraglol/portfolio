@@ -3,7 +3,7 @@ import Image from "next/image";
 const Tile = ({ text }) => {
   return (
     <div
-      className="px-6 my-10 rounded-full py-2 grid place-items-center text-lg"
+      className="px-6 my-10 rounded-full py-2 grid place-items-center text-lg bg-purple-400 hover:bg-purple-300 duration-100 cursor-pointer"
     >
       {text}{" "}
     </div>
@@ -18,8 +18,6 @@ const Skills = () => {
         <Image src="/assests/illustration.png" height="330" width="330" />
       </div>
       <div className="w-full flex justify-center gap-8">
-        <Tile text="JavaScript" />
-        <Tile text="ReactJS" />
         <Tile text="NextJS" />
         <Tile text="Tailwind CSS" />
         <Tile text="Node JS" />

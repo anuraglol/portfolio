@@ -32,12 +32,12 @@ const Projects = () => {
           desc="A React Compponent library built with Tailwind CSS"
         />
         <Tile
-          title="Orbits UI"
-          desc="A React Compponent library built with Tailwind CSS"
+          title="Gradient Deck"
+          desc="Explore awesome curated gradients, add your own!"
         />
         <Tile
-          title="Orbits UI"
-          desc="A React Compponent library built with Tailwind CSS"
+          title="Formie"
+          desc="Open Source Forms for normies!"
         />
       </div>
     </div>
