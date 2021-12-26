@@ -26,7 +26,7 @@ const Header = () => {
       </ul>
       <p>
         <Link href="https://github.com/kr-anurag/portfolio" passHref>
-          <a target="_blank">
+          <a target="_blank" aria-label="github-repo-link">
             <AiOutlineGithub
               size="25"
               className="hover:text-slate-700 cursor-pointer duration-100"

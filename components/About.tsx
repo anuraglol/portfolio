@@ -15,11 +15,13 @@ const About = () => {
         Apart from coding, I love listening to music!
       </p>
       <p className="flex justify-center">
-        <Link href="https://github.com/kr-anurag" passHref>
-          <button className="text-xl w-72 text-white font-medium px-4 py-3 rounded-full flex items-center justify-center bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59] shadow-xl hover:bg-gradient-to-l duration-100">
+        <Link href="https://github.com/kr-anurag" passHref> 
+          <a className="text-xl w-72 text-white font-medium px-4 py-3 rounded-full flex items-center justify-center bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59] shadow-xl hover:bg-gradient-to-l duration-100"
+          aria-label="github-account"
+          target="blank">
             Checkout my Github
             <IoIosArrowForward />
-          </button>
+          </a>
         </Link>
       </p>
     </div>
