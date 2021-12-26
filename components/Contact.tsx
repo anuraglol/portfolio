@@ -21,7 +21,8 @@ const Tile = ({ children, url }) => {
 
 const Contact = () => {
   return (
-    <div className="min-w-screen px-8 py-2 flex flex-col justify-center font-inter font-medium ">
+    <div className="min-w-screen px-8 py-2 flex flex-col justify-center font-inter font-medium"
+    id="contact">
       <p className="text-center text-3xl font-mono font-semibold text-purple-600">
         contact
       </p>

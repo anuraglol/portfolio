@@ -10,7 +10,8 @@ const Tile = ({ text }) => {
 
 const Skills = () => {
   return (
-    <div className="min-w-screen -mt-12 px-8 py-2 flex justify-center flex-col font-inter font-medium">
+    <div className="min-w-screen -mt-12 px-8 py-2 flex justify-center flex-col font-inter font-medium"
+    id="skills">
       <p className="text-center text-3xl font-mono font-semibold text-purple-600">
         skills
       </p>
