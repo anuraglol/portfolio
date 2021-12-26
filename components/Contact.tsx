@@ -10,7 +10,7 @@ const Tile = ({ children, url }) => {
     <Link href={url} passHref>
       <a
         className="p-2 rounded-md bg-slate-200 hover:bg-slate-300 duration-100 grid place-items-center"
-        target="_blank"
+        target="blank"
         aria-label="social-icon"
       >
         {children}
