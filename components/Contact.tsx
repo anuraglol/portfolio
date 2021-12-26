@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { SiHashnode } from "react-icons/si";
+import { BsSpotify } from 'react-icons/bs'
 
 const Tile = ({ children, url }) => {
   return (
@@ -34,6 +35,9 @@ const Contact = () => {
         </Tile>
         <Tile url="https://blog.anurag.tech">
           <SiHashnode size={33} />
+        </Tile>
+        <Tile url="https://open.spotify.com/user/31l2fev6wn2mtzclbpvzxis3x77q">
+          <BsSpotify size={33} />
         </Tile>
       </div>
     </div>
