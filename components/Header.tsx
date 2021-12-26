@@ -14,7 +14,9 @@ const Li = ({ text, href }) => {
 const Header = () => {
   return (
     <header className="min-w-screen px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between">
-      <p className="text-2xl font-semibold text-gray-900">Anurag</p>
+      <Link href="#" passHref>
+        <p className="text-2xl font-semibold text-gray-900 cursor-pointer">Anurag</p>
+      </Link>
 
       <ul className="flex flex-row items-center gap-8">
         <Li text="About" href="#about" />
@@ -23,10 +25,14 @@ const Header = () => {
         <Li text="Contact" href="#contact" />
       </ul>
       <p>
-        <AiOutlineGithub
-          size="25"
-          className="hover:text-slate-700 cursor-pointer duration-100"
-        />
+        <Link href="https://github.com/kr-anurag/portfolio" passHref>
+          <a target="_blank">
+            <AiOutlineGithub
+              size="25"
+              className="hover:text-slate-700 cursor-pointer duration-100"
+            />
+          </a>
+        </Link>
       </p>
     </header>
   );
