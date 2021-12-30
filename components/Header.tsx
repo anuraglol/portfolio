@@ -13,7 +13,7 @@ const Li = ({ text, href }) => {
 
 const Header = () => {
   return (
-    <header className="min-w-screen px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between">
+    <header className="px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between overflow-hidden w-full fixed top-0 bg-primary">
       <Link href="#" passHref>
         <p className="text-2xl font-semibold text-gray-900 cursor-pointer">Anurag</p>
       </Link>
