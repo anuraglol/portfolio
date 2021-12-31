@@ -15,24 +15,29 @@ const Header = () => {
   return (
     <header className="min-w-screen px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between">
       <Link href="#" passHref>
-        <p className="text-2xl font-semibold text-gray-900 cursor-pointer">Anurag</p>
+        <p className="text-2xl font-semibold text-gray-900 cursor-pointer">
+          Anurag
+        </p>
       </Link>
 
-      <ul className="flex flex-row items-center gap-8">
+      <ul className="flex-row hidden md:inline-flex items-center gap-8">
         <Li text="About" href="#about" />
         <Li text="Skills" href="#skills" />
         <Li text="Projects" href="#projects" />
         <Li text="Contact" href="#contact" />
       </ul>
       <p>
-        <Link href="https://github.com/kr-anurag/portfolio" passHref>
-          <a target="_blank" aria-label="github-repo-link">
-            <AiOutlineGithub
-              size="25"
-              className="hover:text-slate-700 cursor-pointer duration-100"
-            />
-          </a>
-        </Link>
+        <a
+          target="_blank"
+          href="https://github.com/kr-anurag/portfolio"
+          rel="noopener noreferrer"
+          aria-label="github-repo-link"
+        >
+          <AiOutlineGithub
+            size="25"
+            className="hover:text-slate-700 cursor-pointer duration-100"
+          />
+        </a>
       </p>
     </header>
   );

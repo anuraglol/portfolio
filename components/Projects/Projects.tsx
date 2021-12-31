@@ -21,13 +21,13 @@ const Tile = ({ title, desc, url }) => {
 const Projects = () => {
   return (
     <div
-      className={`min-w-screen p-10 flex flex-col justify-center items-center gap-16 font-inter font-medium `}
+      className="min-w-screen p-10 flex flex-col justify-center items-center gap-16 font-inter font-medium"
       id="projects"
     >
       <p className="text-center text-3xl font-mono font-semibold text-purple-600">
         projects
       </p>
-      <div className="flex flex-row gap-16 ">
+      <div className="flex flex-col lg:flex-row gap-16 ">
         {" "}
         <Tile
           title="Orbits UI"
