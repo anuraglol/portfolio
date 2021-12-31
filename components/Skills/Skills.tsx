@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Tile = ({ text }) => {
   return (
-    <div className="px-6 my-10 rounded-full py-2 grid place-items-center text-lg bg-purple-600 hover:bg-purple-500 duration-100 cursor-pointer text-white shadow-xl">
+    <div className="px-6 my-10 rounded-full py-2 flex justify-center items-center text-[11px] md:text-lg bg-purple-600 hover:bg-purple-500 duration-100 cursor-pointer text-white shadow-xl">
       {text}{" "}
     </div>
   );
@@ -10,8 +10,10 @@ const Tile = ({ text }) => {
 
 const Skills = () => {
   return (
-    <div className="min-w-screen -mt-12 px-8 py-2 flex justify-center flex-col font-inter font-medium"
-    id="skills">
+    <div
+      className="-mt-12 px-8 py-2 flex items-center justify-center flex-col font-inter font-medium"
+      id="skills"
+    >
       <p className="text-center text-3xl font-mono font-semibold text-purple-600">
         skills
       </p>
@@ -23,7 +25,7 @@ const Skills = () => {
           alt="skills"
         />
       </div>
-      <div className="w-full flex justify-center gap-8">
+      <div className="max-w-xl grid grid-cols-3 items-center justify-center gap-x-8 gap-y-[1px]">
         <Tile text="NextJS" />
         <Tile text="Tailwind CSS" />
         <Tile text="Node JS" />
