@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kr-anurag",
+      "name": "Anurag",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77309809?v=4",
+      "profile": "https://anurag.tech",
+      "contributions": [
+        "code",
+        "maintenance",
+        "infra"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "portfolio",
+  "projectOwner": "kr-anurag",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
