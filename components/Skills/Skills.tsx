@@ -25,9 +25,9 @@ const Skills = () => {
           alt="skills"
         />
       </div>
-      <div className="max-w-xl grid grid-cols-3 items-center justify-center gap-x-8 gap-y-[1px]">
+      <div className="max-w-2xl grid grid-cols-3 items-center justify-center gap-x-4 sm:gap-x-8 md:gap-x-10 lg:gap-x-12 gap-y-[1px]">
         <Tile text="NextJS" />
-        <Tile text="Tailwind CSS" />
+        <Tile text="Tailwind" />
         <Tile text="Node JS" />
         <Tile text="Supabase" />
         <Tile text="Typescript" />
