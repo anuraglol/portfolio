@@ -4,7 +4,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div
-      className="min-w-screen font-inter py-4 my-16 flex justify-center flex-col"
+      className="min-w-screen font-inter px-2 py-4 my-16 flex justify-center flex-col"
       id="about"
     >
       <p className="text-6xl font-bold text-gray-700 text-center">
