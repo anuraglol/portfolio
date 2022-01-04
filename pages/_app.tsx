@@ -1,12 +1,28 @@
 import type { AppProps /*, AppContext */ } from "next/app";
 import "../styles/globals.css";
 
+import Script from "next/script";
 import NextNProgress from "nextjs-progressbar";
 import { NextSeo } from "next-seo";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
       <NextSeo
         title="Anurag | Frontend Developer"
         titleTemplate="Anurag | Frontend Developer"
