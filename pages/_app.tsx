@@ -31,6 +31,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           site: "@kr_anurag_",
           cardType: "summary_large_image",
         }}
+        additionalMetaTags={[
+          {
+            property: "keywords",
+            content:
+              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+          },
+        ]}
       />
       <NextNProgress />
       <Component {...pageProps} />
