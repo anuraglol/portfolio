@@ -1,4 +1,4 @@
-import { AiFillGithub, AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineGithub } from "react-icons/ai";
 import Link from "next/link";
 
 import { useState, useEffect } from "react";
@@ -26,10 +26,8 @@ const Header = () => {
     });
   }, []);
 
-  const bg = topOfPage ? "transparent" : "bg-header";
-
   return (
-    <header className={`w-full top-0 px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between fixed z-50 ${bg}`}>
+    <header className={`w-full top-0 px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between fixed z-50 ${topOfPage ? "bg-transparent" : "bg-header"}`}>
       <Link href="#" passHref>
         <p className="text-2xl font-semibold text-gray-900 cursor-pointer">
           Anurag
