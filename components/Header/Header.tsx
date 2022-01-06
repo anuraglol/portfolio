@@ -27,14 +27,18 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`w-full top-0 px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between fixed z-50 ${topOfPage ? "bg-transparent" : "bg-header"}`}>
+    <header
+      className={`w-full top-0 px-4 py-4 items-center font-inter shadow-md flex flex-row justify-center md:justify-between fixed z-50 ${
+        topOfPage ? "bg-transparent" : "bg-header"
+      }`}
+    >
       <Link href="#" passHref>
-        <p className="text-2xl font-semibold text-gray-900 cursor-pointer">
+        <p className="text-2xl font-semibold text-gray-900 cursor-pointer hidden md:inline">
           Anurag
         </p>
       </Link>
 
-      <ul className="flex-row hidden md:inline-flex items-center gap-8">
+      <ul className="inline-flex flex-row items-center gap-8">
         <Li text="About" href="#about" />
         <Li text="Skills" href="#skills" />
         <Li text="Projects" href="#projects" />
@@ -46,6 +50,7 @@ const Header = () => {
           href="https://github.com/kr-anurag/portfolio"
           rel="noopener noreferrer"
           aria-label="github-repo-link"
+          className="hidden md:inline"
         >
           <AiOutlineGithub
             size="25"
