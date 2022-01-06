@@ -1,6 +1,8 @@
 import { AiFillGithub, AiOutlineGithub } from "react-icons/ai";
 import Link from "next/link";
 
+import { useState, useEffect } from "react";
+
 const Li = ({ text, href }) => {
   return (
     <Link href={href} passHref>
@@ -12,8 +14,22 @@ const Li = ({ text, href }) => {
 };
 
 const Header = () => {
+  const [topOfPage, setTopOfPage] = useState<boolean>();
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 1) {
+        setTopOfPage(false);
+      } else {
+        setTopOfPage(true);
+      }
+    });
+  }, []);
+
+  const bg = topOfPage ? "transparent" : "bg-header";
+
   return (
-    <header className="min-w-screen px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between">
+    <header className={`w-full top-0 px-4 py-4 items-center font-inter shadow-md flex flex-row justify-between fixed z-50 ${bg}`}>
       <Link href="#" passHref>
         <p className="text-2xl font-semibold text-gray-900 cursor-pointer">
           Anurag
