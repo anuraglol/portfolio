@@ -33,7 +33,7 @@ const Home: NextPage = () => {
       <Contact />
       <Footer />
 
-      <button
+      {/* <button
         className={`h-14 w-14 m-4 rounded-md bg-arrow text-white font-medium animate-reveal flex items-center justify-center cursor-pointer float-right z-50 shadow-lg hover:shadow-xl duration-100  fixed bottom-3 right-3 ${
           topOfPage && "hidden"
         }`}
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         aria-label="back-to-top"
       >
         <HiArrowSmUp size={50} />
-      </button>
+      </button> */}
     </>
   );
 };
