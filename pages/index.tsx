@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
 
-import { Header } from "../components";
+import { Header, About } from "../components";
 
 const Home: NextPage = () => {
   return (
-    <div className="min-h-screen min-w-screen bg-primary px-96">
+    <div className="min-h-screen min-w-screen bg-primary px-[22rem]">
       <Header />
+      <About />
     </div>
   );
 };
