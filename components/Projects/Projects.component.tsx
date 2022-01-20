@@ -5,7 +5,7 @@ import ProjectCard from "./Project.card";
 const Projects: React.FC = () => {
   return (
     <div className="px-3 my-16">
-      <p className="text-4xl font-lexend text-white font-bold">
+      <p className="text-3xl font-lexend text-white font-bold">
         Featured Projects
       </p>
       <div className="flex flex-row justify-center gap-10 my-8">

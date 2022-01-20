@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="my-8 font-inter px-3 flex flex-row items-center justify-between">
       <div>
-        <p className="text-4xl font-lexend text-white font-bold">Anurag</p>
+        <p className="text-3xl font-lexend text-white font-bold">Anurag</p>
         <p className="text-lg font-medium text-gray-300 font-poppins mt-1">
           Frontend Developer, Blogger and a Student
         </p>
