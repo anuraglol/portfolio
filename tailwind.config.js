@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#FEF7FF",
+        primary: "#010101",
         secondary: "#845EC2",
         header: "#ffffffd4",
         arrow: "#000000e4"
@@ -14,6 +14,7 @@ module.exports = {
 
       fontFamily: {
         inter: "'Inter', sans-serif",
+        lexend: "'Lexend', sans-serif"
       },
     },
   },
