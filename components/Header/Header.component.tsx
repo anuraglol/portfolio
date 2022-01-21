@@ -30,7 +30,7 @@ const Header: React.FC = () => {
     <header className={`font-jost py-8 flex flex-row items-center justify-between`}>
       <p className="flex flex-row gap-x-4">
         <TextLink text="Home" href="#" />
-        <TextLink text="Skills" href="#" />
+        <TextLink text="Read my Blog" href="#" />
         <TextLink text="Projects" href="#" />
         <TextLink text="Contact" href="#" />
       </p>

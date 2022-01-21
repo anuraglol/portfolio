@@ -4,7 +4,7 @@ import { Header, About, Projects, Skills, Contact } from "../components";
 
 const Home: NextPage = () => {
   return (
-    <div className="px-[22rem]">
+    <div className="px-80">
       <Header />
       <About />
       <Skills />
