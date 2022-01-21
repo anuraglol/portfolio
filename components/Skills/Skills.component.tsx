@@ -4,8 +4,8 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <div className="px-3 my-16 text-white">
-      <p className="text-3xl font-lexend text-white font-bold">Skills & Uses</p>
+    <div className="px-3 my-16 text-white font-sen">
+      <p className="text-3xl text-white font-bold">Skills & Uses</p>
 
       <div className="flex flex-col my-8 font-medium">
         <p className="text-lg text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">

@@ -6,7 +6,7 @@ const TextLink = ({ text, href }: any) => {
   return (
     <a
       href={href}
-      className="text-lg cursor-pointer text-gray-200 px-4 py-[0.10rem] rounded-md hover:bg-zinc-800 duration-100 font-lexend"
+      className="text-xl cursor-pointer text-gray-200 px-4 py-[0.10rem] rounded-md hover:bg-zinc-800 duration-100"
     >
       {text}
     </a>
@@ -27,7 +27,7 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className={`py-8 flex flex-row items-center justify-between`}>
+    <header className={`font-jost py-8 flex flex-row items-center justify-between`}>
       <p className="flex flex-row gap-x-4">
         <TextLink text="Home" href="#" />
         <TextLink text="Skills" href="#" />

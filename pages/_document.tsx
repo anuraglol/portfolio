@@ -9,7 +9,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Jost&family=Sen&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
         <body className="bg-primary">
           <Main />
           <NextScript />
