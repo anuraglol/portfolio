@@ -31,11 +31,18 @@ const Skills = () => {
           <span className="text-white">Figma </span>
           &nbsp;as my designing tool
         </p>
+
+        <p className="text-lg text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+          <BsArrowRightShort size="30" />
+          <span className="text-white">Express JS </span>
+          &nbsp;as my API framework
+        </p>
       </div>
 
       <p className="text-slate-300 font-medium text-lg">
         ...more skills include <span className="text-white">javascript</span>,{" "}
-        <span className="text-white">reactjs</span>
+        <span className="text-white">reactjs</span>,{" "}
+        <span className="text-white">fastapi </span>{" "}
       </p>
     </div>
   );

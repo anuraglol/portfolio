@@ -35,7 +35,7 @@ const Header: React.FC = () => {
         <TextLink text="Contact" href="#" />
       </p>
 
-        <button className="text-white text-2xl p-2 rounded-lg bg-gray-800 border-2 border-primary hover:border-white">
+        <button className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-primary hover:border-white">
           <VscGithubAlt />
         </button>
     </header>
