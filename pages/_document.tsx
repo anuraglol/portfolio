@@ -14,6 +14,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Jost&family=Sen&display=swap"
             rel="stylesheet"
           />
+          <link
+          rel="icon"
+          type="image/png"
+          href="/assests/avatar.png"
+          />
         </Head>
         <body className="bg-primary">
           <Main />
