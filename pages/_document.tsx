@@ -20,7 +20,7 @@ class MyDocument extends Document {
           href="/assests/avatar.png"
           />
         </Head>
-        <body className="bg-primary">
+        <body className="bg-zinc-900 ">
           <Main />
           <NextScript />
         </body>
