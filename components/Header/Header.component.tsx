@@ -27,7 +27,9 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className={`font-jost py-8 flex flex-row items-center justify-between`}>
+    <header
+      className={`font-jost py-8 flex flex-row items-center justify-between`}
+    >
       <p className="flex flex-row gap-x-4">
         <TextLink text="Home" href="#" />
         <TextLink text="Read my Blog" href="#" />
@@ -35,9 +37,9 @@ const Header: React.FC = () => {
         <TextLink text="Contact" href="#" />
       </p>
 
-        <button className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-primary hover:border-white">
-          <VscGithubAlt />
-        </button>
+      <button className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white">
+        <VscGithubAlt />
+      </button>
     </header>
   );
 };
