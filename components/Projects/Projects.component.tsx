@@ -1,7 +1,5 @@
 import React from "react";
 
-import ProjectCard from "./Project.card";
-
 const Projects: React.FC = () => {
   return (
     <div className="px-3 my-16 font-sen">
