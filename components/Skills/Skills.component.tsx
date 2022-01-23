@@ -7,32 +7,32 @@ const Skills = () => {
     <div className="px-3 my-16 text-white font-sen">
       <p className="text-3xl text-white font-bold">Skills & Uses</p>
 
-      <div className="flex flex-col my-8 font-medium">
-        <p className="text-lg text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+      <div className="flex flex-col my-8 font-medium text-md custom:text-lg md:text-xl">
+        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
           <BsArrowRightShort size="30" />
           <span className="text-white">NextJS</span>
           &nbsp;as my Frontend Framework
         </p>
 
-        <p className="text-lg text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
           <BsArrowRightShort size="30" />
           <span className="text-white">Typescript </span>
           &nbsp;as my main language
         </p>
 
-        <p className="text-lg text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
           <BsArrowRightShort size="30" />
           <span className="text-white">Tailwind CSS </span>
           &nbsp;as my CSS framework
         </p>
 
-        <p className="text-lg text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
           <BsArrowRightShort size="30" />
           <span className="text-white">Figma </span>
           &nbsp;as my designing tool
         </p>
 
-        <p className="text-lg text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
           <BsArrowRightShort size="30" />
           <span className="text-white">Express JS </span>
           &nbsp;as my API framework

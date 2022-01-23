@@ -13,6 +13,10 @@ module.exports = {
         jost: ["Jost", "sans-serif"],
         sen: ["Sen", "sans-serif"],
       },
+
+      screens: {
+        custom: "400px"
+      }
     },
   },
   variants: {
