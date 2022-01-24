@@ -21,6 +21,7 @@ const About = () => {
           width="112"
           height="112"
           className="rounded-full"
+          alt="avatar"
         />
       </div>
     </div>

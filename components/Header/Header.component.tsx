@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+import Link from "next/link";
 import { VscGithubAlt } from "react-icons/vsc";
 
 const TextLink = ({ text, href }: any) => {
@@ -37,9 +38,15 @@ const Header: React.FC = () => {
         <TextLink text="Contact" href="#" />
       </p>
 
-      <button className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white">
-        <VscGithubAlt />
-      </button>
+      <Link href="https://github.com/kr-anurag/portfolio" passHref>
+        <a
+          className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <VscGithubAlt />
+        </a>
+      </Link>
     </header>
   );
 };
