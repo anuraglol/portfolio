@@ -43,6 +43,7 @@ const Header: React.FC = () => {
           className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="github-repo"
         >
           <VscGithubAlt />
         </a>
