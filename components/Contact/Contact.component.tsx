@@ -13,6 +13,7 @@ const Contact = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="github"
             className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
           >
             <AiOutlineGithub />
@@ -23,6 +24,7 @@ const Contact = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="twitter"
             className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
           >
             <AiOutlineTwitter />
@@ -33,6 +35,7 @@ const Contact = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="mail"
             className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
           >
             <MdEmail />
