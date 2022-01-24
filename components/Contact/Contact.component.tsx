@@ -12,6 +12,7 @@ const Contact = () => {
         <Link href="https://github.com/kr-anurag" passHref>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
           >
             <AiOutlineGithub />
@@ -21,6 +22,7 @@ const Contact = () => {
         <Link href="https://twitter.com/kr_anurag_" passHref>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
           >
             <AiOutlineTwitter />
@@ -30,6 +32,7 @@ const Contact = () => {
         <Link href="mailto:kr.anurag24@gmail.com" passHref>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
           >
             <MdEmail />
