@@ -6,15 +6,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#FEF7FF",
-        secondary: "#845EC2",
-        header: "#ffffffd4",
-        arrow: "#000000e4"
+        primary: "#010101",
       },
 
       fontFamily: {
-        inter: "'Inter', sans-serif",
+        jost: ["Jost", "sans-serif"],
+        sen: ["Sen", "sans-serif"],
       },
+
+      screens: {
+        custom: "400px"
+      }
     },
   },
   variants: {
