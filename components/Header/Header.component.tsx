@@ -33,9 +33,9 @@ const Header: React.FC = () => {
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" href="#" />
-        <TextLink text="Blog" href="#" />
-        <TextLink text="Projects" href="#" />
-        <TextLink text="Contact" href="#" />
+        <TextLink text="Skills" href="#skills" />
+        <TextLink text="Projects" href="#projects" />
+        <TextLink text="Contact" href="#contact" />
       </p>
 
       <Link href="https://github.com/kr-anurag/portfolio" passHref>

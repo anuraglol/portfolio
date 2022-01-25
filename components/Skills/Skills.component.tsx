@@ -2,7 +2,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <div className="px-3 my-16 text-white font-sen">
+    <div className="px-3 my-16 text-white font-sen" id="skills">
       <p className="text-3xl text-white font-bold">Skills & Uses</p>
 
       <div className="flex flex-col my-8 font-medium text-md custom:text-lg md:text-xl">

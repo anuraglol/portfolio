@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="px-3 font-sen">
+    <div className="px-3 font-sen" id="contact">
       <p className="text-3xl text-white font-bold">Get in touch</p>
 
       <div className="my-8 flex flex-row gap-x-4 justify-center">

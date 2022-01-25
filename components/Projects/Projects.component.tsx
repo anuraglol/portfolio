@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Projects: React.FC = () => {
   return (
-    <div className="px-3 my-16 font-sen">
+    <div className="px-3 my-16 font-sen" id="projects">
       <p className="text-3xl text-white font-bold">Featured Projects</p>
       <div className="flex flex-col justify-center items-center sm:flex-row gap-10 my-8">
         <Link href="https://vault3.live" passHref>
