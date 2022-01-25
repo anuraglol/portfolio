@@ -40,11 +40,13 @@ function MyApp({ Component, pageProps }: AppProps) {
               height: 800,
               width: 420,
               alt: "Anurag | Frontend Developer",
-              type: "image/png"
+              type: "image/png",
             },
           ],
         }}
         twitter={{
+          handle: "@kr_anurag_",
+          site: "@kr_anurag_",
           cardType: "summary_large_image",
         }}
         additionalMetaTags={[
