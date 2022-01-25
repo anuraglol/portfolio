@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
+
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const About = () => {
   return (
@@ -13,6 +16,17 @@ const About = () => {
           Building Web apps, proficient in Frontend. Writing articles <br /> on
           my blog sometimes.
         </p>
+
+        <Link href="https://blog.anurag.tech" passHref>
+          <a
+            className="cursor-pointer font-jost text-xl text-gray-400 mt-4 flex flex-row gap-1 items-center hover:ml-2 duration-100"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read my Blog
+            <HiOutlineArrowNarrowRight />
+          </a>
+        </Link>
       </div>
 
       <div>
