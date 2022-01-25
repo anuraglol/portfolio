@@ -37,8 +37,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           images: [
             {
               url: "https://anurag.tech/assests/og-image.png",
-              width: 800,
-              height: 420,
               alt: "Anurag | Frontend Developer",
             },
           ],
