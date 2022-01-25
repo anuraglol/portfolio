@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Script from "next/script";
 import NextNProgress from "nextjs-progressbar";
 import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -57,6 +58,12 @@ function MyApp({ Component, pageProps }: AppProps) {
           },
         ]}
       />
+      <Head>
+        <meta
+          property="og:image"
+          content="https://www.anurag.tech/assests/og-image.png"
+        />
+      </Head>
       <NextNProgress />
       <Component {...pageProps} />
     </>
