@@ -15,10 +15,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" type="image/png" href="/assests/avatar.png" />
-          <meta
-            property="og:image"
-            content="https://www.anurag.tech/assets/og-image.png"
-          />
         </Head>
         <body className="bg-zinc-900">
           <Main />

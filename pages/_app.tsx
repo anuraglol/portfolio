@@ -34,6 +34,18 @@ function MyApp({ Component, pageProps }: AppProps) {
           title: "Anurag | Frontend Developer",
           description:
             "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+          images: [
+            {
+              url: "https://anurag.tech/assests/og-image.png",
+              height: 800,
+              width: 420,
+              alt: "Anurag | Frontend Developer",
+              type: "image/png"
+            },
+          ],
+        }}
+        twitter={{
+          cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
