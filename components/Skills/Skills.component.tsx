@@ -2,42 +2,42 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <div className="px-3 my-16 text-white font-sen" id="skills">
-      <p className="text-3xl text-white font-bold">Skills & Uses</p>
+    <div className="my-16 px-3 font-sen text-white" id="skills">
+      <p className="text-3xl font-bold text-white">Skills & Uses</p>
 
-      <div className="flex flex-col my-8 font-medium text-md custom:text-lg md:text-xl">
-        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+      <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">NextJS</span>
           &nbsp;as my Frontend Framework
         </p>
 
-        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">Typescript </span>
           &nbsp;as my main language
         </p>
 
-        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">Tailwind CSS </span>
           &nbsp;as my CSS framework
         </p>
 
-        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">Figma </span>
           &nbsp;as my designing tool
         </p>
 
-        <p className="text-slate-300 py-1 border-b-[0.1px] border-gray-500 flex flex-row items-center">
+        <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <BsArrowRightShort size="30" />
           <span className="text-white">Express JS </span>
           &nbsp;as my API framework
         </p>
       </div>
 
-      <p className="text-slate-300 font-medium text-lg">
+      <p className="text-lg font-medium text-slate-300">
         ...more skills include <span className="text-white">javascript</span>,{" "}
         <span className="text-white">reactjs</span>,{" "}
         <span className="text-white">fastapi </span>{" "}

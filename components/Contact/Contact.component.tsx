@@ -6,15 +6,15 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <div className="px-3 font-sen" id="contact">
-      <p className="text-3xl text-white font-bold">Get in touch</p>
+      <p className="text-3xl font-bold text-white">Get in touch</p>
 
-      <div className="my-8 flex flex-row gap-x-4 justify-center">
+      <div className="my-8 flex flex-row justify-center gap-x-4">
         <Link href="https://github.com/kr-anurag" passHref>
           <a
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
-            className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
+            className="rounded-lg border-2 border-zinc-900 bg-zinc-800 p-2 text-2xl text-white hover:border-white"
           >
             <AiOutlineGithub />
           </a>
@@ -25,7 +25,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="twitter"
-            className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
+            className="rounded-lg border-2 border-zinc-900 bg-zinc-800 p-2 text-2xl text-white hover:border-white"
           >
             <AiOutlineTwitter />
           </a>
@@ -36,7 +36,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="mail"
-            className="text-white text-2xl p-2 rounded-lg bg-zinc-800 border-2 border-zinc-900 hover:border-white"
+            className="rounded-lg border-2 border-zinc-900 bg-zinc-800 p-2 text-2xl text-white hover:border-white"
           >
             <MdEmail />
           </a>

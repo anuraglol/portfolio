@@ -15,8 +15,8 @@ module.exports = {
       },
 
       screens: {
-        custom: "400px"
-      }
+        custom: "400px",
+      },
     },
   },
   variants: {
