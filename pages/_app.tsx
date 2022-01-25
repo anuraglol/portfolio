@@ -4,7 +4,6 @@ import "../styles/globals.css";
 import Script from "next/script";
 import NextNProgress from "nextjs-progressbar";
 import { NextSeo } from "next-seo";
-import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -37,11 +36,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
           images: [
             {
-              url: "https://anurag.tech/assests/og-image.png",
-              height: 800,
-              width: 420,
+              url: "assests/og.svg",
+              width: 800,
+              height: 420,
               alt: "Anurag | Frontend Developer",
-              type: "image/png",
+              type: "image/svg",
             },
           ],
         }}
@@ -58,12 +57,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           },
         ]}
       />
-      <Head>
-        <meta
-          property="og:image"
-          content="https://www.anurag.tech/assests/og-image.png"
-        />
-      </Head>
       <NextNProgress />
       <Component {...pageProps} />
     </>
