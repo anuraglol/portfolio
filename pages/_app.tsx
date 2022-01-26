@@ -42,18 +42,12 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
           images: [
             {
-              url: "assests/og-image.png",
+              url: "/assests/og-image.png",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
-              type: "image/png",
+              alt: "Anurag | Frontend Developer"
             },
           ],
-        }}
-        twitter={{
-          handle: "@kr_anurag_",
-          site: "@kr_anurag_",
-          cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
