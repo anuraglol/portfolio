@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Script>
 
       <Head>
-        <title>Anurag | Frontend Develope</title>
+        <title>Anurag | Frontend Developer</title>
         <meta
           name="description"
           content="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta
           property="og:image"
-          content="https://www.avneesh.tech/og-image.png"
+          content="/assests/og-image.png"
         />
       </Head>
       <NextNProgress />
