@@ -4,13 +4,13 @@
 
 > Note: This is a portfolio template, feel free to use it. And star it if you liked :P
 
-[demo](./public/assests/demo.png)
+![demo](./public/assests/demo.png)
 
-✨ ![Live Demo](https://anurag.tech)
+✨ [Live Demo](https://anurag.tech)
 
 ### Using the template
 
-To use this template, read and follow the steps given in the ![Using Guide](./USING.md)
+To use this template, read and follow the steps given in the [Using Guide](./USING.md)
 
 ### Author
 
