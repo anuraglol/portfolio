@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Script from "next/script";
 import NextNProgress from "nextjs-progressbar";
 import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -24,6 +25,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     });
                 `}
       </Script>
+
+      <Head>
+        <link rel="icon" type="image/png" href="/assests/avatar.png" />
+      </Head>
+
       <NextSeo
         title="Anurag | Frontend Developer"
         titleTemplate="Anurag | Frontend Developer"
@@ -36,11 +42,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
           images: [
             {
-              url: "assests/og.svg",
+              url: "assests/og-image.png",
               width: 800,
               height: 420,
               alt: "Anurag | Frontend Developer",
-              type: "image/svg",
+              type: "image/png",
             },
           ],
         }}
