@@ -5,7 +5,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const About = () => {
   return (
-    <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
+    <div className="font-sen my-8 flex flex-row items-center justify-between px-3">
       <div>
         <p className="text-3xl font-bold text-white">Anurag</p>
         <p className="mt-1 text-lg font-medium text-gray-300">
@@ -19,11 +19,22 @@ const About = () => {
 
         <Link href="https://blog.anurag.tech" passHref>
           <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+            className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
             Read my Blog
+            <HiOutlineArrowNarrowRight />
+          </a>
+        </Link>
+
+        <Link href="https://discord.gg/XJe67pCa8k" passHref>
+          <a
+            className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join our discord server
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
