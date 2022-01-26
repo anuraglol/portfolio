@@ -3,7 +3,6 @@ import "../styles/globals.css";
 
 import Script from "next/script";
 import NextNProgress from "nextjs-progressbar";
-import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -27,36 +26,18 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Script>
 
       <Head>
+        <title>Anurag | Frontend Develope</title>
+        <meta
+          name="description"
+          content="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        />
         <link rel="icon" type="image/png" href="/assests/avatar.png" />
-      </Head>
 
-      <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
-        openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
-          description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
-          images: [
-            {
-              url: "/assests/og-image.png",
-              width: 800,
-              height: 420,
-              alt: "Anurag | Frontend Developer"
-            },
-          ],
-        }}
-        additionalMetaTags={[
-          {
-            property: "keywords",
-            content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
-          },
-        ]}
-      />
+        <meta
+          property="og:image"
+          content="https://www.avneesh.tech/og-image.png"
+        />
+      </Head>
       <NextNProgress />
       <Component {...pageProps} />
     </>
