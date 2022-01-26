@@ -3,7 +3,7 @@ import "../styles/globals.css";
 
 import Script from "next/script";
 import NextNProgress from "nextjs-progressbar";
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -24,20 +24,38 @@ function MyApp({ Component, pageProps }: AppProps) {
                     });
                 `}
       </Script>
-
-      <Head>
-        <title>Anurag | Frontend Developer</title>
-        <meta
-          name="description"
-          content="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
-        />
-        <link rel="icon" type="image/png" href="/assests/avatar.png" />
-
-        <meta
-          property="og:image"
-          content="/assests/og-image.png"
-        />
-      </Head>
+      <NextSeo
+        title="Anurag | Frontend Developer"
+        titleTemplate="Anurag | Frontend Developer"
+        defaultTitle="Anurag | Frontend Developer"
+        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        openGraph={{
+          url: "https://www.anurag.tech/",
+          title: "Anurag | Frontend Developer",
+          description:
+            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+          images: [
+            {
+              url: "/og-image.png",
+              width: 800,
+              height: 420,
+              alt: "Anurag | Frontend Developer",
+            },
+          ],
+        }}
+        twitter={{
+          handle: "@kr_anurag_",
+          site: "@kr_anurag_",
+          cardType: "summary_large_image",
+        }}
+        additionalMetaTags={[
+          {
+            property: "keywords",
+            content:
+              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+          },
+        ]}
+      />
       <NextNProgress />
       <Component {...pageProps} />
     </>
