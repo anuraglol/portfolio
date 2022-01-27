@@ -24,6 +24,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vaishnav-sh",
+      "name": "Vaishnav Shyam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68321987?v=4",
+      "profile": "https://github.com/vaishnav-sh",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
