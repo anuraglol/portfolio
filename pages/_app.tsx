@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
           images: [
             {
-              url: "https://res.cloudinary.com/didkcszrq/image/upload/v1643457909/og-image_at75v0.png",
+              url: "https://us-east-1.tixte.net/uploads/me.likes.cash/anurag-og.png",
               width: 800,
               height: 420,
               alt: "Anurag | Frontend Developer",
