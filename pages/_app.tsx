@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
           images: [
             {
-              url: "https://anurag-dev.vercel.app/og-image.png",
+              url: "https://imgur.com/a/Hv4JFQH",
               width: 800,
               height: 420,
               alt: "Anurag | Frontend Developer",
