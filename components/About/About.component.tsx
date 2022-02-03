@@ -28,13 +28,13 @@ const About = () => {
           </a>
         </Link>
 
-        <Link href="https://discord.gg/XJe67pCa8k" passHref>
+        <Link href="https://sponsor.anurag.tech" passHref>
           <a
             className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Join our discord server
+            Love my work? Sponsor me!
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
