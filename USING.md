@@ -2,11 +2,11 @@
 
 First, click on the `Use this template` button
 
-![](./public/docs/template.png)
+![](./public/assests/docs/template.png)
 
 Now choose a name for your repo and create.
 
-![](./public/docs/create.png)
+![](./public/assests/docs/create.png)
 
 ### Running locally
 
@@ -31,6 +31,7 @@ yarn dev # for yarn
 ```
 
 ## Making changes
+
 To add your details go to the data.json file in the public folder and replace my data with yours.
 
 To customize the colors go to `tailwind.config.js` and replace the existing colors with your brand colors.
@@ -54,4 +55,4 @@ git push
 - Your site is successfully deployed 🥳
 - Now grab the URL and show it to world
 
-![](./public/docs/vercel.png)
+![](./public/assests/docs/vercel.png)

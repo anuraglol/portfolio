@@ -29,7 +29,7 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`font-jost flex flex-row items-center justify-between py-8`}
+      className={`flex flex-row items-center justify-between py-8 font-jost`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" href="#" />
