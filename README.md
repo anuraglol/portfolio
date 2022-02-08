@@ -4,7 +4,7 @@
 
 > Note: This is a portfolio template, feel free to use it. And star it if you liked :P
 
-![demo](./public/docs/demo.png)
+![demo](./public/assests/docs/demo.png)
 
 ✨ [Live Demo](https://anurag.tech)
 

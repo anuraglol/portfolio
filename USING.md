@@ -2,11 +2,11 @@
 
 First, click on the `Use this template` button
 
-![](./public/docs/template.png)
+![](./public/assests/docs/template.png)
 
 Now choose a name for your repo and create.
 
-![](./public/docs/create.png)
+![](./public/assests/docs/create.png)
 
 ### Running locally
 
@@ -54,4 +54,4 @@ git push
 - Your site is successfully deployed 🥳
 - Now grab the URL and show it to world
 
-![](./public/docs/vercel.png)
+![](./public/assests/docs/vercel.png)
