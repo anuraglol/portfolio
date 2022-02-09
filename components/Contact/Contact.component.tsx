@@ -3,13 +3,14 @@ import {
   MdEmail,
   AiOutlineGithub,
   AiOutlineTwitter,
+  FaDiscord,
 } from "../Icons";
 
 import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="px-3 font-sen" id="contact">
+    <div className="font-sen px-3" id="contact">
       <p className="text-3xl font-bold text-white">Get in touch</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
@@ -43,6 +44,17 @@ const Contact = () => {
             className="rounded-lg border-2 border-zinc-900 bg-zinc-800 p-2 text-2xl text-white hover:border-white"
           >
             <MdEmail />
+          </a>
+        </Link>
+
+        <Link href="https://discord.com/users/849171428497424404" passHref>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="mail"
+            className="rounded-lg border-2 border-zinc-900 bg-zinc-800 p-2 text-2xl text-white hover:border-white"
+          >
+            <FaDiscord />
           </a>
         </Link>
 
