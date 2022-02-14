@@ -1,4 +1,13 @@
-# 0.1.0 (2022-02-10)
+## [0.1.1](https://github.com/kr-anurag/portfolio/compare/v0.1.0...v0.1.1) (2022-02-14)
+
+
+### Bug Fixes
+
+* upgrade sass from 1.44.0 to 1.49.0 ([8566718](https://github.com/kr-anurag/portfolio/commit/8566718b4018ac1edfe6ff4b637b6471121d5aee))
+
+
+
+# [0.1.0](https://github.com/kr-anurag/portfolio/compare/f6af8278f01db446b63cd48807aec1de3490a676...v0.1.0) (2022-02-10)
 
 
 ### Bug Fixes
