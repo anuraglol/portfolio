@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/kr-anurag/portfolio/compare/v0.1.1...v0.1.2) (2022-02-19)
+
+
+### Bug Fixes
+
+* package.json & yarn.lock to reduce vulnerabilities ([99a9fd2](https://github.com/kr-anurag/portfolio/commit/99a9fd2095c894624a9f62200b97c3a315a5eb1e))
+
+
+
 ## [0.1.1](https://github.com/kr-anurag/portfolio/compare/v0.1.0...v0.1.1) (2022-02-14)
 
 
