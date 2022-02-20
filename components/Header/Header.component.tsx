@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from "react";
+import { FC } from "react";
 
 import Link from "next/link";
 import { VscGithubAlt } from "react-icons/vsc";
 
-const TextLink = ({ text, href }: any) => {
+import type { linkProps } from "../../@types/propTypes";
+
+const TextLink: FC<linkProps> = ({ text, url }) => {
   return (
     <a
-      href={href}
+      href={url}
       className="cursor-pointer rounded-md px-4 py-[0.10rem] text-xl text-gray-200 duration-100 hover:bg-zinc-800"
     >
       {text}
@@ -14,28 +16,17 @@ const TextLink = ({ text, href }: any) => {
   );
 };
 
-const Header: React.FC = () => {
-  const [topOfPage, setTopOfPage] = useState<boolean>();
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 1) {
-        setTopOfPage(false);
-      } else {
-        setTopOfPage(true);
-      }
-    });
-  }, []);
+const Header: FC = () => {
 
   return (
     <header
       className={`flex flex-row items-center justify-between py-8 font-jost`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
-        <TextLink text="Home" href="#" />
-        <TextLink text="Skills" href="#skills" />
-        <TextLink text="Projects" href="#projects" />
-        <TextLink text="Contact" href="#contact" />
+        <TextLink text="Home" url="#" />
+        <TextLink text="Skills" url="#skills" />
+        <TextLink text="Projects" url="#projects" />
+        <TextLink text="Contact" url="#contact" />
       </p>
 
       <Link href="https://github.com/kr-anurag/portfolio" passHref>
