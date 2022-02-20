@@ -1,5 +1,5 @@
-export { default as Header } from "./Header/Header.component";
-export { default as About } from "./About/About.component";
-export { default as Skills } from "./Skills/Skills.component";
-export { default as Projects } from "./Projects/Projects.component";
-export { default as Contact } from "./Contact/Contact.component";
+export { default as Header } from "./Sections/Header.section";
+export { default as About } from "./Sections/About.section";
+export { default as Skills } from "./Sections/Skills.section";
+export { default as Projects } from "./Sections/Projects.section";
+export { default as Contact } from "./Sections/Contact.section";

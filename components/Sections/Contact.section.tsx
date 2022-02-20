@@ -6,7 +6,7 @@ import {
   FaDiscord,
 } from "../Icons";
 
-import { Icon } from "./Icon.component";
+import { Icon } from "../Misc/Icon.component";
 
 const Contact = () => {
   return (
