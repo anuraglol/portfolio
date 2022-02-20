@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/kr-anurag/portfolio/compare/v0.1.2...v0.1.3) (2022-02-20)
+
+
+### Bug Fixes
+
+* **docs:** fix weird link issue in readme ([735379f](https://github.com/kr-anurag/portfolio/commit/735379f8847cb5d291368fbd7a6d247aa0449c84))
+
+
+
 ## [0.1.2](https://github.com/kr-anurag/portfolio/compare/v0.1.1...v0.1.2) (2022-02-19)
 
 
