@@ -16,10 +16,10 @@ To use this template, read and follow the steps given in the [Using Guide](./USI
 
 😊 Anurag
 
-- Portfolio: https://anurag.tech
-- Github: https://github.com/kr-anurag
-- Twitter: https://twitter.com/kr_anurag_
-- Blog: https://blog.anurag.tech
+- [Portfolio](https://anurag.tech)
+- [Github](https://github.com/kr-anurag)
+- [Twitter](https://twitter.com/kr_anurag_)
+- [Blog](https://blog.anurag.tech)
 
 Give a star ⭐ to show your support :P
 
