@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/kr-anurag/portfolio/compare/v0.1.3...v0.1.4) (2022-02-24)
+
+
+### Bug Fixes
+
+* upgrade @types/node from 17.0.13 to 17.0.14 ([4c26273](https://github.com/kr-anurag/portfolio/commit/4c26273e44599a3ca1ac47febed998f7d02d2d44))
+
+
+
 ## [0.1.3](https://github.com/kr-anurag/portfolio/compare/v0.1.2...v0.1.3) (2022-02-20)
 
 
