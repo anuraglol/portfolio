@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 import Link from "next/link"
 
-import type { iconProps } from "../../@types/propTypes";
+import type { iconProps } from "../../@types/prop.types";
 
 const Icon: FC<iconProps> = ({icon, url}) => {
     return (

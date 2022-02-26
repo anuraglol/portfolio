@@ -3,7 +3,7 @@ import { FC } from "react";
 import Link from "next/link";
 import { VscGithubAlt } from "react-icons/vsc";
 
-import type { linkProps } from "../../@types/propTypes";
+import type { linkProps } from "../../@types/prop.types";
 
 const TextLink: FC<linkProps> = ({ text, url }) => {
   return (
