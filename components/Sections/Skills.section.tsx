@@ -1,4 +1,4 @@
-import { BsArrowRightShort } from "../Icons";
+import { BsArrowRightShort } from "../Misc/Icons.collection";
 
 const Skills = () => {
   return (

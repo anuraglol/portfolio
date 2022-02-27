@@ -4,7 +4,7 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   FaDiscord,
-} from "../Icons";
+} from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
 
