@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { HiOutlineArrowNarrowRight } from "../Icons";
+import { HiOutlineArrowNarrowRight } from "../Misc/Icons.collection";
 
 const About = () => {
   return (
@@ -40,7 +40,7 @@ const About = () => {
         </Link>
       </div>
 
-      <div>
+      <div className="hidden custom:block">
         <Image
           src="/assests/avatar.png"
           width="112"
