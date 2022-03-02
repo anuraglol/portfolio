@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-import { Header, About, Projects, Skills, Contact, DiscordCard } from "../components";
+import { Header, About, Projects, Skills, Contact, SpotifyCard } from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Contact />
 
       <div className="flex justify-center">
-        <DiscordCard />
+        <SpotifyCard />
       </div>
     </div>
   );

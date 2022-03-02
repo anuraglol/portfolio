@@ -3,7 +3,7 @@ import { FC } from "react";
 import { useLanyard } from "use-lanyard";
 import Image from "next/image";
 
-const DiscordCard: FC = () => {
+const SpotifyCard: FC = () => {
   const DISCORD_ID = "849171428497424404";
   const { data: activity } = useLanyard(DISCORD_ID);
 
@@ -51,4 +51,4 @@ const DiscordCard: FC = () => {
   );
 };
 
-export default DiscordCard;
+export default SpotifyCard;
