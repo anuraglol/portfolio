@@ -24,11 +24,6 @@ const Contact = () => {
         <Icon icon={<MdEmail />} url="mailto:kr.anurag24@gmail.com" />
 
         <Icon
-          icon={<FaDiscord />}
-          url="https://discord.com/users/849171428497424404"
-        />
-
-        <Icon
           icon={<BsSpotify />}
           url="https://open.spotify.com/user/31l2fev6wn2mtzclbpvzxis3x77q"
         />
