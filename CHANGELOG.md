@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/kr-anurag/portfolio/compare/v0.2.0...v0.2.1) (2022-03-02)
+
+
+### Bug Fixes
+
+* remove discord contact button, its broken o_O ([879c5af](https://github.com/kr-anurag/portfolio/commit/879c5afb0d275062bcbe49eeac818bed28f676b5))
+
+
+
 # [0.2.0](https://github.com/kr-anurag/portfolio/compare/v0.1.4...v0.2.0) (2022-03-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * package.json & yarn.lock to reduce vulnerabilities ([99a9fd2](https://github.com/kr-anurag/portfolio/commit/99a9fd2095c894624a9f62200b97c3a315a5eb1e))
-
-
-
-## [0.1.1](https://github.com/kr-anurag/portfolio/compare/v0.1.0...v0.1.1) (2022-02-14)
-
-
-### Bug Fixes
-
-* upgrade sass from 1.44.0 to 1.49.0 ([8566718](https://github.com/kr-anurag/portfolio/commit/8566718b4018ac1edfe6ff4b637b6471121d5aee))
 
 
 
