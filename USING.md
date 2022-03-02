@@ -56,3 +56,21 @@ git push
 - Now grab the URL and show it to world
 
 ![](./public/assests/docs/vercel.png)
+
+### Bonus ⭐
+
+This portfolio template contain a Spotify Card component [here](./components/Misc/Spotify.card.tsx) which shows the current streaming song on spotify.
+
+**Example:**
+
+![](https://res.cloudinary.com/ddum5vpp3/image/upload/v1646232289/scrnli_3_2_2022_8-12-17_PM_gjif0y.png)
+
+To configure this, you need to connect spotify to your discord account and add your User ID to the component.
+
+In the [Spotify.card.tsx](./components/Misc/Spotify.card.tsx) component, change the following line:
+
+```js
+const DISCORD_ID = "<your_discord_id>";
+```
+
+And you're good to go!
