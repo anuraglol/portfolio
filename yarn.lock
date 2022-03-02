@@ -2766,6 +2766,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+swr@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-1.2.2.tgz#6cae09928d30593a7980d80f85823e57468fac5d"
+  integrity sha512-ky0BskS/V47GpW8d6RU7CPsr6J8cr7mQD6+do5eky3bM0IyJaoi3vO8UhvrzJaObuTlGhPl2szodeB2dUd76Xw==
+
 tailwindcss@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.0.tgz"
@@ -2932,6 +2937,13 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+use-lanyard@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/use-lanyard/-/use-lanyard-1.1.0.tgz#50ae57dd8ea36464827e5e205b30f594ffbbe6da"
+  integrity sha512-9yfDnDKCNYR/VIUKSq5V+ACSwZECNrA1ogduigZzF8AuEVwCjrckFBL56dLQHISqsPiB5MfypgpVU+c757EZ3g==
+  dependencies:
+    swr "^1.2.2"
 
 use-subscription@1.5.1:
   version "1.5.1"
