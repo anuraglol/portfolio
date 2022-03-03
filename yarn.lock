@@ -223,6 +223,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/jost@^4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@fontsource/jost/-/jost-4.5.4.tgz#5388f2bf99f30191f85ca4f6f6805198548f4e2e"
+  integrity sha512-KHTF84XsoO3MUxHjdUqwF7jsHbqyZAafceFngKURUfx2MdN795ilQ7noNW2gu7qlv2N1fwGJnAUhCTUGelkLwQ==
+
+"@fontsource/sen@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/sen/-/sen-4.5.2.tgz#6c782756981975fe89fc7dd131a6a0627ba4e96a"
+  integrity sha512-/u3kxWTAbAJX3v3gMy2bpFmwhD0kT+ZxXOrBwm8ZCHM8jKZTwYb2Lk8yH/vpzbT5gofIqLt0rOxGnqI3ylrkCw==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.2"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.2.tgz"
