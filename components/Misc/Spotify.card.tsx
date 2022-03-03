@@ -1,51 +1,48 @@
-import { FC } from "react";
+import { FC, useState, useEffect } from "react";
 
-import { useLanyard } from "use-lanyard";
+import type { NowPlayingSong } from "../../@types/now-playing-song.type";
 import Image from "next/image";
+import axios from "axios";
+import Link from "next/link";
 
 const SpotifyCard: FC = () => {
-  const DISCORD_ID = "849171428497424404";
-  const { data: activity } = useLanyard(DISCORD_ID);
+  // const DISCORD_ID = "849171428497424404";
+  // const { data: activity } = useLanyard(DISCORD_ID);
 
-  const USERNAME = activity?.discord_user?.username;
+  // const USERNAME = activity?.discord_user?.username;
+
+  const [data, setData] = useState<NowPlayingSong>();
+  console.log(data);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await axios.get("/api/now-playing");
+      setData(res.data);
+    };
+
+    fetchData();
+  }, []);
+
+  axios.get("/api/now-playing").then((data) => console.log(data));
 
   return (
     <>
-      <div className="font-sen mb-8 flex flex-row items-center gap-x-4 rounded-md bg-zinc-700 p-4 sm:p-6 text-white">
-        <div>
-          {activity?.listening_to_spotify ? (
-            <Image
-              src={activity?.spotify?.album_art_url}
-              alt="album cover"
-              width={100}
-              height={100}
-              className="rounded-md"
-            />
-          ) : (
-            <Image
-              src="/assests/spotify.svg"
-              alt="spotify icon"
-              width={60}
-              height={60}
-            />
-          )}
-        </div>
+      <div className="font-sen mb-8 flex flex-row items-center gap-x-2 text-center text-lg text-gray-300">
+        <Image src="/assests/spotify.svg" width="50" height="50" />
 
-        <div className="flex flex-col">
-          {activity?.listening_to_spotify ? (
-            <>
-              <div className="text-xl font-bold">
-                {USERNAME} is listening to
-              </div>
-
-              <div className="font-semibold">{activity?.spotify?.song}</div>
-
-              <div className="font-medium">by {activity?.spotify?.artist}</div>
-            </>
-          ) : (
-            <div>{USERNAME} is not listening to anything</div>
-          )}
-        </div>
+        {data?.isPlaying ? (
+          <Link href={data?.songUrl} passHref>
+            <p className="cursor-pointer">
+              i&apos;m currently listening to{" "}
+              <span className="text-white">{data?.title}</span>
+              <p>
+                by <span className="text-white">{data?.artist}</span>
+              </p>
+            </p>
+          </Link>
+        ) : (
+          <p>i&apos;m currently not listening to anything</p>
+        )}
       </div>
     </>
   );
