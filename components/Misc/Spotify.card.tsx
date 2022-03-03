@@ -23,15 +23,20 @@ const SpotifyCard: FC = () => {
   return (
     <>
       <div className="font-sen mb-8 flex flex-row items-center gap-x-2 text-center text-lg text-gray-300">
-        <Image src="/assests/spotify.svg" width="50" height="50" alt="spotify icon" />
+        <Image
+          src="/assests/spotify.svg"
+          width="50"
+          height="50"
+          alt="spotify icon"
+        />
 
         {data?.isPlaying ? (
           <Link href={data?.songUrl} passHref>
-            <p className="cursor-pointer">
+            <p className="cursor-pointer truncate">
               i&apos;m currently listening to{" "}
-              <span className="text-white">{data?.title}</span>
+              <span className="truncate text-white">{data?.title}</span>
               <p>
-                by <span className="text-white">{data?.artist}</span>
+                by <span className="truncate text-white">{data?.artist}</span>
               </p>
             </p>
           </Link>
