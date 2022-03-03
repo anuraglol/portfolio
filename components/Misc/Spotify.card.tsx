@@ -6,13 +6,8 @@ import axios from "axios";
 import Link from "next/link";
 
 const SpotifyCard: FC = () => {
-  // const DISCORD_ID = "849171428497424404";
-  // const { data: activity } = useLanyard(DISCORD_ID);
-
-  // const USERNAME = activity?.discord_user?.username;
 
   const [data, setData] = useState<NowPlayingSong>();
-  console.log(data);
 
   useEffect(() => {
     const fetchData = async () => {
