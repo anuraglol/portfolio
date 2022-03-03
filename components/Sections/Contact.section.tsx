@@ -3,7 +3,6 @@ import {
   MdEmail,
   AiOutlineGithub,
   AiOutlineTwitter,
-  FaDiscord,
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
