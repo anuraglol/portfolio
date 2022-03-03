@@ -23,7 +23,7 @@ const SpotifyCard: FC = () => {
   return (
     <>
       <div className="font-sen mb-8 flex flex-row items-center gap-x-2 text-center text-lg text-gray-300">
-        <Image src="/assests/spotify.svg" width="50" height="50" />
+        <Image src="/assests/spotify.svg" width="50" height="50" alt="spotify icon" />
 
         {data?.isPlaying ? (
           <Link href={data?.songUrl} passHref>
