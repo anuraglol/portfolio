@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 import Link from "next/link";
-import { VscGithubAlt } from "../Misc/Icons.collection"
+import { VscGithubAlt } from "../Misc/Icons.collection";
 
 import type { linkProps } from "../../@types/prop.types";
 
@@ -17,10 +17,9 @@ const TextLink: FC<linkProps> = ({ text, url }) => {
 };
 
 const Header: FC = () => {
-
   return (
     <header
-      className={`sm:flex sm:flex-row sm:items-center sm:justify-between py-8 font-jost`}
+      className={`py-8 font-jost sm:flex sm:flex-row sm:items-center sm:justify-between`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" url="#" />
@@ -31,7 +30,7 @@ const Header: FC = () => {
 
       <Link href="https://github.com/kr-anurag/portfolio" passHref>
         <a
-          className="float-right mr-2 sm:mr-0 sm:float-none rounded-lg border-2 border-zinc-900 bg-zinc-800 p-2 text-2xl text-white hover:border-white"
+          className="float-right mr-2 rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2 sm:float-none sm:mr-0"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="github-repo"

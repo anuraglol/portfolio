@@ -6,7 +6,6 @@ import axios from "axios";
 import Link from "next/link";
 
 const SpotifyCard: FC = () => {
-
   const [data, setData] = useState<NowPlayingSong>();
 
   useEffect(() => {
@@ -22,7 +21,7 @@ const SpotifyCard: FC = () => {
 
   return (
     <>
-      <div className="font-sen mb-8 flex flex-row items-center gap-x-2 text-center text-lg text-gray-300">
+      <div className="mb-8 flex flex-row items-center gap-x-2 text-center font-sen text-lg text-gray-300">
         <Image
           src="/assests/spotify.svg"
           width="50"

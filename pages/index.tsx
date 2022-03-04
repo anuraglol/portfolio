@@ -1,6 +1,13 @@
 import type { NextPage } from "next";
 
-import { Header, About, Projects, Skills, Contact, SpotifyCard } from "../components";
+import {
+  Header,
+  About,
+  Projects,
+  Skills,
+  Contact,
+  SpotifyCard,
+} from "../components";
 
 const Home: NextPage = () => {
   return (

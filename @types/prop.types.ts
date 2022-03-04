@@ -4,8 +4,8 @@ interface iconProps {
 }
 
 interface linkProps {
-    text: string,
-    url: string
+  text: string;
+  url: string;
 }
 
 export type { iconProps, linkProps };
