@@ -7,6 +7,7 @@ import Link from "next/link";
 
 const SpotifyCard: FC = () => {
   const [data, setData] = useState<NowPlayingSong>();
+  console.log(data);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -17,11 +18,9 @@ const SpotifyCard: FC = () => {
     fetchData();
   }, []);
 
-  axios.get("/api/now-playing").then((data) => console.log(data));
-
   return (
     <>
-      <div className="mb-8 flex flex-row items-center gap-x-2 text-center font-sen text-lg text-gray-300">
+      <div className="px-3 py-2 bg-zinc-800 rounded-md mb-8 justify-center flex flex-row items-center gap-x-2 text-center font-sen text-lg text-gray-300">
         <Image
           src="/assests/spotify.svg"
           width="50"
@@ -31,11 +30,11 @@ const SpotifyCard: FC = () => {
 
         {data?.isPlaying ? (
           <Link href={data?.songUrl} passHref>
-            <p className="cursor-pointer truncate">
+            <p className="cursor-pointer  w-4/5">
               i&apos;m currently listening to{" "}
-              <span className="truncate text-white">{data?.title}</span>
+              <span className=" text-white">{data?.title}</span>
               <p>
-                by <span className="truncate text-white">{data?.artist}</span>
+                by <span className=" text-white">{data?.artist}</span>
               </p>
             </p>
           </Link>
