@@ -20,17 +20,13 @@ const SpotifyCard: FC = () => {
 
   return (
     <>
-      <div className="px-3 py-2 bg-zinc-800 rounded-md mb-8 justify-center flex flex-row items-center gap-x-2 text-center font-sen text-lg text-gray-300">
-        <Image
-          src="/assests/spotify.svg"
-          width="50"
-          height="50"
-          alt="spotify icon"
-        />
-
+      <div className="font-sen mb-8 flex flex-row items-center justify-center gap-x-2 rounded-md bg-zinc-800 px-3 py-2 text-center text-lg text-gray-300">
         {data?.isPlaying ? (
+          <>
+          <Image src={data?.albumImageUrl} height="70" width="70" className="rounded-md" />
+
           <Link href={data?.songUrl} passHref>
-            <p className="cursor-pointer  w-4/5">
+            <p className="w-4/5  cursor-pointer">
               i&apos;m currently listening to{" "}
               <span className=" text-white">{data?.title}</span>
               <p>
@@ -38,8 +34,17 @@ const SpotifyCard: FC = () => {
               </p>
             </p>
           </Link>
+          </>
         ) : (
-          <p>i&apos;m currently not listening to anything</p>
+          <>
+            <Image
+              src="/assests/spotify.svg"
+              width="50"
+              height="50"
+              alt="spotify icon"
+            />
+            <p>i&apos;m currently not listening to anything</p>
+          </>
         )}
       </div>
     </>
