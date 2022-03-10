@@ -63,14 +63,16 @@ This portfolio template contain a Spotify Card component [here](./components/Mis
 
 **Example:**
 
-![](https://res.cloudinary.com/ddum5vpp3/image/upload/v1646232289/scrnli_3_2_2022_8-12-17_PM_gjif0y.png)
+![example](https://res.cloudinary.com/ddum5vpp3/image/upload/v1646921441/scrnli_3_10_2022_7-40-13_PM_xkbiam.png)
 
-To configure this, you need to connect spotify to your discord account and add your User ID to the component.
+To configure this, you need to add `env` vars to thr `.env.local` file in the following format:
 
-In the [Spotify.card.tsx](./components/Misc/Spotify.card.tsx) component, change the following line:
-
-```js
-const DISCORD_ID = "<your_discord_id>";
+```txt
+SPOTIFY_CLIENT_ID=<your_client_id_here>
+SPOTIFY_CLIENT_SECRET=<your_client_secret_here>
+SPOTIFY_REFRESH_TOKEN=<your_refresh_token_here>
 ```
+
+Read this [article](https://leerob.io/blog/spotify-api-nextjs) to get our own keys in this format.
 
 And you're good to go!
