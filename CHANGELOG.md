@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/kr-anurag/portfolio/compare/v0.2.2...v0.2.3) (2022-03-19)
+
+
+### Bug Fixes
+
+* upgrade @types/node from 17.0.19 to 17.0.21 ([9919a2e](https://github.com/kr-anurag/portfolio/commit/9919a2e2684c48512124968eb2bfa9eb42a54164))
+
+
+
 ## [0.2.2](https://github.com/kr-anurag/portfolio/compare/v0.2.1...v0.2.2) (2022-03-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade @types/node from 17.0.13 to 17.0.14 ([4c26273](https://github.com/kr-anurag/portfolio/commit/4c26273e44599a3ca1ac47febed998f7d02d2d44))
-
-
-
-## [0.1.3](https://github.com/kr-anurag/portfolio/compare/v0.1.2...v0.1.3) (2022-02-20)
-
-
-### Bug Fixes
-
-* **docs:** fix weird link issue in readme ([735379f](https://github.com/kr-anurag/portfolio/commit/735379f8847cb5d291368fbd7a6d247aa0449c84))
 
 
 
