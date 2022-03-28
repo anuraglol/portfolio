@@ -19,7 +19,7 @@ const TextLink: FC<linkProps> = ({ text, url }) => {
 const Header: FC = () => {
   return (
     <header
-      className={`py-8 font-jost sm:flex sm:flex-row sm:items-center sm:justify-between`}
+      className={`font-jost py-8 sm:flex sm:flex-row sm:items-center sm:justify-between`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" url="#" />
@@ -38,7 +38,7 @@ const Header: FC = () => {
           <VscGithubAlt />
         </a>
       </Link>
-    </header>
+    </header>   
   );
 };
 

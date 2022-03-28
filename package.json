@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@fontsource/jost": "^4.5.4",
@@ -23,6 +24,8 @@
     "@commitlint/config-conventional": "^16.0.0",
     "@types/react": "^17.0.37",
     "autoprefixer": "^10.4.0",
+    "commitlint": "^16.2.3",
+    "commitlint-config-gitmoji": "^2.2.5",
     "eslint": "8.4.1",
     "eslint-config-next": "12.0.7",
     "husky": "^7.0.4",
