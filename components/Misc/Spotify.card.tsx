@@ -7,7 +7,6 @@ import Link from "next/link";
 
 const SpotifyCard: FC = () => {
   const [data, setData] = useState<NowPlayingSong>();
-  console.log(data);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,7 +22,7 @@ const SpotifyCard: FC = () => {
       <div className="font-sen mb-8 flex flex-row items-center justify-center gap-x-2 rounded-md bg-zinc-800 px-3 py-2 text-center text-lg text-gray-300">
         {data?.isPlaying ? (
           <>
-          <Image src={data?.albumImageUrl} height="70" width="70" className="rounded-md" />
+          <Image src={data?.albumImageUrl} height="70" width="70" className="rounded-md" alt="album url" />
 
           <Link href={data?.songUrl} passHref>
             <p className="w-4/5  cursor-pointer">
