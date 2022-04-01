@@ -1,3 +1,12 @@
+## [0.2.4](https://github.com/kr-anurag/portfolio/compare/v0.2.3...v0.2.4) (2022-04-01)
+
+
+### Bug Fixes
+
+* upgrade axios from 0.26.0 to 0.26.1 ([d2be87d](https://github.com/kr-anurag/portfolio/commit/d2be87d8b7dbff7a69e85a4b5832c15660c18300))
+
+
+
 ## [0.2.3](https://github.com/kr-anurag/portfolio/compare/v0.2.2...v0.2.3) (2022-03-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add spotify current streaming song card ([5d2e99f](https://github.com/kr-anurag/portfolio/commit/5d2e99ff136f815b3cf59431a9fa9da78bf8906e))
-
-
-
-## [0.1.4](https://github.com/kr-anurag/portfolio/compare/v0.1.3...v0.1.4) (2022-02-24)
-
-
-### Bug Fixes
-
-* upgrade @types/node from 17.0.13 to 17.0.14 ([4c26273](https://github.com/kr-anurag/portfolio/commit/4c26273e44599a3ca1ac47febed998f7d02d2d44))
 
 
 
