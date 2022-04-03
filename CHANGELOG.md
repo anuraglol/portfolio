@@ -1,3 +1,12 @@
+## [0.2.5](https://github.com/kr-anurag/portfolio/compare/v0.2.4...v0.2.5) (2022-04-03)
+
+
+### Bug Fixes
+
+* upgrade @fontsource/sen from 4.5.2 to 4.5.3 ([3dc0fb8](https://github.com/kr-anurag/portfolio/commit/3dc0fb819d79aad8264f09473e980cf23924dcdf))
+
+
+
 ## [0.2.4](https://github.com/kr-anurag/portfolio/compare/v0.2.3...v0.2.4) (2022-04-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove discord contact button, its broken o_O ([879c5af](https://github.com/kr-anurag/portfolio/commit/879c5afb0d275062bcbe49eeac818bed28f676b5))
-
-
-
-# [0.2.0](https://github.com/kr-anurag/portfolio/compare/v0.1.4...v0.2.0) (2022-03-02)
-
-
-### Features
-
-* add spotify current streaming song card ([5d2e99f](https://github.com/kr-anurag/portfolio/commit/5d2e99ff136f815b3cf59431a9fa9da78bf8906e))
 
 
 
