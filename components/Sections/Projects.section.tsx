@@ -1,8 +1,8 @@
-import React from "react";
+import type { NextComponentType } from "next";
 
 import Link from "next/link";
 
-const Projects: React.FC = () => {
+const Projects: NextComponentType = () => {
   return (
     <div className="my-16 px-3 font-sen" id="projects">
       <p className="text-3xl font-bold text-white">Featured Projects</p>

@@ -1,9 +1,11 @@
+import type { NextComponentType } from "next";
+
 import Image from "next/image";
 import Link from "next/link";
 
 import { HiOutlineArrowNarrowRight } from "../Misc/Icons.collection";
 
-const About = () => {
+const About: NextComponentType = () => {
   return (
     <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
       <div>
