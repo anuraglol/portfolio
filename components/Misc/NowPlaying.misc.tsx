@@ -12,7 +12,7 @@ const SpotifyCard: NextComponentType = () => {
 
   return (
     <>
-      <div className="font-sen mb-8 flex max-w-max flex-row items-center gap-x-2 rounded-md text-center text-lg text-gray-300">
+      <div className="font-sen mb-8 flex max-w-full flex-row items-center gap-x-2 rounded-md text-center text-lg text-gray-300">
         <Image
           src="/assests/spotify.svg"
           width="40"
