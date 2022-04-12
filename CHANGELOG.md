@@ -1,3 +1,12 @@
+## [0.2.6](https://github.com/kr-anurag/portfolio/compare/v0.2.5...v0.2.6) (2022-04-12)
+
+
+### Bug Fixes
+
+* upgrade @types/node from 17.0.21 to 17.0.22 ([87d49c4](https://github.com/kr-anurag/portfolio/commit/87d49c4d95f306d617e3fd46ded79b3b8b8cd47f))
+
+
+
 ## [0.2.5](https://github.com/kr-anurag/portfolio/compare/v0.2.4...v0.2.5) (2022-04-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade sass from 1.49.7 to 1.49.8 ([7737aa7](https://github.com/kr-anurag/portfolio/commit/7737aa717677225652302895d184dee61fd71c85))
-
-
-
-## [0.2.1](https://github.com/kr-anurag/portfolio/compare/v0.2.0...v0.2.1) (2022-03-02)
-
-
-### Bug Fixes
-
-* remove discord contact button, its broken o_O ([879c5af](https://github.com/kr-anurag/portfolio/commit/879c5afb0d275062bcbe49eeac818bed28f676b5))
 
 
 
