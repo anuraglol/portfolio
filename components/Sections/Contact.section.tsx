@@ -19,7 +19,7 @@ const Contact: NextComponentType = () => {
 
         <Icon
           icon={<AiOutlineTwitter />}
-          url="https://twitter.com/kr_anurag_"
+          url="https://twitter.com/imanuraglol"
         />
 
         <Icon icon={<MdEmail />} url="mailto:kr.anurag24@gmail.com" />
