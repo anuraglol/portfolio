@@ -368,10 +368,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/jost@^4.5.4":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@fontsource/jost/-/jost-4.5.4.tgz#5388f2bf99f30191f85ca4f6f6805198548f4e2e"
-  integrity sha512-KHTF84XsoO3MUxHjdUqwF7jsHbqyZAafceFngKURUfx2MdN795ilQ7noNW2gu7qlv2N1fwGJnAUhCTUGelkLwQ==
+"@fontsource/jost@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/jost/-/jost-4.5.6.tgz#0625eb72a2f6936b928b338de930eba839d861d8"
+  integrity sha512-qPelIv5eAo249dils+1XDwBiUAdyFHucm3xKzHiUc8Cj1T1mIN11J3R8p3FYMlO48Jb65JGJmgIG6W98oLkU0w==
 
 "@fontsource/sen@^4.5.3":
   version "4.5.5"
