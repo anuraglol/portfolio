@@ -1,3 +1,12 @@
+## [0.2.7](https://github.com/kr-anurag/portfolio/compare/v0.2.6...v0.2.7) (2022-04-16)
+
+
+### Bug Fixes
+
+* upgrade @fontsource/jost from 4.5.4 to 4.5.6 ([89291d3](https://github.com/kr-anurag/portfolio/commit/89291d390cbecfe6e6681a96efbd0a6d536db681))
+
+
+
 ## [0.2.6](https://github.com/kr-anurag/portfolio/compare/v0.2.5...v0.2.6) (2022-04-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade @types/node from 17.0.19 to 17.0.21 ([9919a2e](https://github.com/kr-anurag/portfolio/commit/9919a2e2684c48512124968eb2bfa9eb42a54164))
-
-
-
-## [0.2.2](https://github.com/kr-anurag/portfolio/compare/v0.2.1...v0.2.2) (2022-03-12)
-
-
-### Bug Fixes
-
-* upgrade sass from 1.49.7 to 1.49.8 ([7737aa7](https://github.com/kr-anurag/portfolio/commit/7737aa717677225652302895d184dee61fd71c85))
 
 
 
