@@ -1,3 +1,12 @@
+## [0.2.9](https://github.com/kr-anurag/portfolio/compare/v0.2.8...v0.2.9) (2022-04-21)
+
+
+### Bug Fixes
+
+* upgrade next from 12.1.1 to 12.1.2 ([835aaaa](https://github.com/kr-anurag/portfolio/commit/835aaaa3220e30fb7d2511c17c2532edc35e0a11))
+
+
+
 ## [0.2.8](https://github.com/kr-anurag/portfolio/compare/v0.2.7...v0.2.8) (2022-04-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade @fontsource/sen from 4.5.2 to 4.5.3 ([3dc0fb8](https://github.com/kr-anurag/portfolio/commit/3dc0fb819d79aad8264f09473e980cf23924dcdf))
-
-
-
-## [0.2.4](https://github.com/kr-anurag/portfolio/compare/v0.2.3...v0.2.4) (2022-04-01)
-
-
-### Bug Fixes
-
-* upgrade axios from 0.26.0 to 0.26.1 ([d2be87d](https://github.com/kr-anurag/portfolio/commit/d2be87d8b7dbff7a69e85a4b5832c15660c18300))
 
 
 
