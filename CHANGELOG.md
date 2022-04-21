@@ -1,3 +1,12 @@
+## [0.2.10](https://github.com/kr-anurag/portfolio/compare/v0.2.9...v0.2.10) (2022-04-21)
+
+
+### Bug Fixes
+
+* upgrade sass from 1.49.9 to 1.49.10 ([34c9bd9](https://github.com/kr-anurag/portfolio/commit/34c9bd9492155dfe5be0db4ddaf34236ff16ae4f))
+
+
+
 ## [0.2.9](https://github.com/kr-anurag/portfolio/compare/v0.2.8...v0.2.9) (2022-04-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade @types/node from 17.0.21 to 17.0.22 ([87d49c4](https://github.com/kr-anurag/portfolio/commit/87d49c4d95f306d617e3fd46ded79b3b8b8cd47f))
-
-
-
-## [0.2.5](https://github.com/kr-anurag/portfolio/compare/v0.2.4...v0.2.5) (2022-04-03)
-
-
-### Bug Fixes
-
-* upgrade @fontsource/sen from 4.5.2 to 4.5.3 ([3dc0fb8](https://github.com/kr-anurag/portfolio/commit/3dc0fb819d79aad8264f09473e980cf23924dcdf))
 
 
 
