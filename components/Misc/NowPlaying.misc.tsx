@@ -22,12 +22,12 @@ const SpotifyCard: NextComponentType = () => {
         {data?.isPlaying ? (
             <Link href={data?.songUrl} passHref>
               <p className="cursor-pointer truncate">
-                i&apos;m currently listening to{" "}
-                <span className="text-white">{data?.title}</span>
+                I&apos;m currently listening to{" "}
+                <span className="text-white">{data?.title}</span>.
               </p>
             </Link>
         ) : (
-            <p>i&apos;m currently not listening to anything</p>
+            <p>I&apos;m currently not listening to anything.</p>
         )}
       </div>
     </>
