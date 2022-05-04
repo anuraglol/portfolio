@@ -13,7 +13,7 @@
     "@fontsource/sen": "^4.5.3",
     "@types/node": "^17.0.22",
     "axios": "^0.26.1",
-    "next": "12.1.4",
+    "next": "12.1.5",
     "next-seo": "^4.29.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
