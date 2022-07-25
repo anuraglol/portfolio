@@ -1,3 +1,12 @@
+## [0.2.13](https://github.com/kr-anurag/portfolio/compare/v0.2.12...v0.2.13) (2022-07-25)
+
+
+### Bug Fixes
+
+* upgrade @types/node from 17.0.23 to 17.0.24 ([e13a198](https://github.com/kr-anurag/portfolio/commit/e13a19895e65cb9746ee673d9c49f14e7ec9e8a8))
+
+
+
 ## [0.2.12](https://github.com/kr-anurag/portfolio/compare/v0.2.11...v0.2.12) (2022-07-25)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * upgrade next from 12.1.1 to 12.1.2 ([835aaaa](https://github.com/kr-anurag/portfolio/commit/835aaaa3220e30fb7d2511c17c2532edc35e0a11))
-
-
-
-## [0.2.8](https://github.com/kr-anurag/portfolio/compare/v0.2.7...v0.2.8) (2022-04-16)
-
-
-### Bug Fixes
-
-* upgrade next from 12.1.0 to 12.1.1 ([6edf736](https://github.com/kr-anurag/portfolio/commit/6edf736ce00fc1a964ace17a86ec4570b0f36bd1))
 
 
 
