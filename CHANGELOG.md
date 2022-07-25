@@ -1,3 +1,13 @@
+## [0.2.12](https://github.com/kr-anurag/portfolio/compare/v0.2.11...v0.2.12) (2022-07-25)
+
+
+### Bug Fixes
+
+* upgrade next from 12.1.4 to 12.1.5 ([b81f87f](https://github.com/kr-anurag/portfolio/commit/b81f87fa776109472ed2d6f935c246b0a7b434a8))
+* upgrade swr from 1.2.2 to 1.3.0 ([f6a91e7](https://github.com/kr-anurag/portfolio/commit/f6a91e7d6216b1def3a1b760d08b7a42551f02ba))
+
+
+
 ## [0.2.11](https://github.com/kr-anurag/portfolio/compare/v0.2.10...v0.2.11) (2022-04-24)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * upgrade next from 12.1.0 to 12.1.1 ([6edf736](https://github.com/kr-anurag/portfolio/commit/6edf736ce00fc1a964ace17a86ec4570b0f36bd1))
-
-
-
-## [0.2.7](https://github.com/kr-anurag/portfolio/compare/v0.2.6...v0.2.7) (2022-04-16)
-
-
-### Bug Fixes
-
-* upgrade @fontsource/jost from 4.5.4 to 4.5.6 ([89291d3](https://github.com/kr-anurag/portfolio/commit/89291d390cbecfe6e6681a96efbd0a6d536db681))
 
 
 
