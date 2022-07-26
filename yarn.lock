@@ -373,10 +373,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/jost/-/jost-4.5.6.tgz#0625eb72a2f6936b928b338de930eba839d861d8"
   integrity sha512-qPelIv5eAo249dils+1XDwBiUAdyFHucm3xKzHiUc8Cj1T1mIN11J3R8p3FYMlO48Jb65JGJmgIG6W98oLkU0w==
 
-"@fontsource/sen@^4.5.3":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/sen/-/sen-4.5.5.tgz#d436bbf96acd2c9e4c33dd33a4bad072f2e44a8a"
-  integrity sha512-mYqUVtIOk1DSBP95vxLSA2RQBelzNJQ9IXzbY5ymfoD8LODwkKQQzM+cONm8FV92prJPuuN61wb0zivPM1+5RQ==
+"@fontsource/sen@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/sen/-/sen-4.5.8.tgz#8e848be023601b206a741725c6a1bedd8f31a82f"
+  integrity sha512-MqfXD/k05Rz6cb58ZoRAmFOkpRPUyLsnOFJkjp0rwT8L2cT422FL3RuYV+tVXcEa/xomw4D1y3RJSkKYwqe1hg==
 
 "@gitmoji/commit-types@1.1.5":
   version "1.1.5"
